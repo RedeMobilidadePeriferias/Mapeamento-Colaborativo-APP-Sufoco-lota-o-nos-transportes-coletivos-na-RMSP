@@ -25,7 +25,7 @@ Tatiana Y. Ashino (Colaboradora)
 Cíntia R. de Almeida (Bolsita)
 <br>
 Para maiores informações acesse o site do projeto
-www.mapeamentosufoco.com.br
+https://redemobilidadeperiferias.github.io/sufoco.html
 <br>
 Para baixar gratuitamente o App Sufoco: lotação nos transportes na RMSP
 https://play.google.com/store/apps
