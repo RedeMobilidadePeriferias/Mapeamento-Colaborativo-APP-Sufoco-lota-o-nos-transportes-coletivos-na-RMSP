@@ -1,15 +1,13 @@
 <img align="right" src="https://user-images.githubusercontent.com/111389624/203411479-9e86a3fc-acf6-405c-85a5-07c84f7cb634.jpg" width="150">
 <h1>
-  <b style="color:red">
   Mapeamento Colaborativo Sufoco
-  </b>  
-</h1>
+  </h1>
 <h3>lotação nos transportes coletivos na rmsp</h3>
 <br>
 <br>
 O mapeamento colaborativo sufoco: lotação nos transportes coletivos na RMSP é parte das ações do grupo de pesquisa-ensino-extensão Rede Mobilidade Periferias, Instituto das Cidades, Campus Zona Leste, Unifesp.
 <br>
-<h3> O que queremos?</h3>
+<b style="color:red"> O que queremos?</b>
 <br>
 A proposta deste projeto é o mapeamento colaborativo digital a partir dos alertas das pessoas em situações de lotação nos transportes coletivos na região metropolitana de São Paulo (RMSP), que é um problema histórico enfrentado pelas pessoas em sua mobilidade cotidiana, mas vem se agravando neste contexto de pandemia do coronavírus.
 <br>
