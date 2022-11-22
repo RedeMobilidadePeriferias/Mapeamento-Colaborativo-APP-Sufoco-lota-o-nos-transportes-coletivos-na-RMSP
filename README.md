@@ -21,9 +21,10 @@ A equipe do projeto divulgará os resultados parciais e finais neste site, bem c
 <br>
 <h3> Equipe do projeto</h3>
 Ricardo B. Silva (Coord.do Projeto)
+<br>
 Leonardo Garcez (Colaborador desenvolvedor)
+<br>
 Tatiana Y. Ashino (Colaboradora)
-Cíntia R. de Almeida (Bolsita)
 <br>
 Para maiores informações acesse o site do projeto
 https://redemobilidadeperiferias.github.io/sufoco.html
