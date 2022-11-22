@@ -1,0 +1,2260 @@
+<resources>
+    <string name="app_name">Sufoco</string>
+    <string name="toolbar_name">Sufoco</string>
+    <string name="toolbar_name_part_2">Lotação nos transportes</string>
+    <string name="empty"></string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_project">Apresentação do Projeto</string>
+    <string name="action_aboutus">Quem somos</string>
+
+    <string name="lableTravelReason">Qual o motivo da viagem?</string>
+    <string name="lableTravelTime">Qual o tempo estimado da viagem?</string>
+    <string name="lableTravelStatus">Como está a lotação do transporte coletivo?</string>
+    <string name="lableTravelCategory">Qual meio de transporte está lotado?</string>
+    <string name="lableTravelLine">Qual a linha de transporte?</string>
+    <string name="lableTravelStation">Qual estação está lotada?</string>
+    <string name="lableReport">Reportar</string>
+
+    <string-array name="arrayTravelReason">
+        <item>Ir trabalhar</item>
+        <item>Ir estudar </item>
+        <item>Voltar pra casa</item>
+        <item>Lazer e cultura</item>
+        <item>Fazer compras</item>
+        <item>Ir ao médico</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="arrayTravelTime">
+        <item>Até 10 minutos</item>
+        <item>De 10 a 30 minutos </item>
+        <item>De 30 minutos a 1 hora</item>
+        <item>De 1 a 2 horas</item>
+        <item>Mais de 2 horas</item>
+    </string-array>
+
+    <string-array name="arrayTravelStatus">
+        <item>Lotado (passageiros em pé e sem aglomeração)</item>
+        <item>Muito Lotado (passageiros em pé e com aglomeração) </item>
+        <item>Lotação máxima (não foi possível entrar)</item>
+    </string-array>
+
+    <string name="radioBus">Ônibus</string>
+    <string name="radioSubway">Metrô</string>
+    <string name="radioTrain">Trem CPTM</string>
+    <string name="lines">Linhas</string>
+    <string name="about_us">Quem somos?</string>
+    <string name="about_us_desc">"O mapeamento colaborativo sufoco: lotação nos transportes coletivos na RMSP é parte das ações do grupo de pesquisa-ensino-extensão Rede Mobilidade Periferias, Instituto das Cidades, Campus Zona Leste, Unifesp. Esta ação é vinculada a um projeto de extensão aprovado pela Pró-Reitoria de Extensão e Cultura (PROEC), Unifesp.\n\nEquipe do projeto\n\nCíntia R. de Almeida (Bolsita)\nLeonardo Garcez (Colaborador desenvolvedor)\nRicardo B. Silva (Coord.do Projeto)\nTatiana Y. Ashino (Colaboradora)\n\nContato\nE-mail: mapeamentosufoco@gmail.com"</string>
+    <string name="about_project">Sobre o projeto</string>
+    <string name="about_project_dec">Tem como propósito mapear de maneira colaborativa os alertas das pessoas em situações de lotação nos transportes coletivos na região metropolitana de São Paulo (RMSP), que é um problema histórico na mobilidade, mas se agrava neste contexto de pandemia. Os alertas de lotação enviados pelas pessoas nos transportes coletivos serão disponibilizados no mapa digital. As informações dos participantes serão mantidas em anonimato.</string>
+    <string name="site">https://www.mapeamentosufoco.com.br</string>
+
+    <string-array name="busLines">
+        <item>101910 - SOL NASCENTE/TERMINAL PIRITUBA</item>
+        <item>119L01 - VILA SULINA/TERMINAL LAPA</item>
+        <item>189L10 - VILA LORIO/LAPA</item>
+        <item>800110 - VILA PIAUI/TERM LAPA</item>
+        <item>800310 - V REMEDIOS/TERM LAPA</item>
+        <item>800410 - SANTA MONICA/TERM LAPA</item>
+        <item>800610 - JD DONARIA/TERM PIRITUBA</item>
+        <item>800710 - VILA CLARICE/TERM PIRITUBA</item>
+        <item>800810 - STA MONICA/TERMPIRITUBA</item>
+        <item>800910 - CID DABRIL III/TERMPIRITUBA</item>
+        <item>800931 - CID DABRIL III/TERMPIRITUBA</item>
+        <item>804010 - SOL NASCENTE/LAPA</item>
+        <item>804310 - VILA NOVA ESPERANÇA/LAPA</item>
+        <item>804710 - JARAGUA/LAPA</item>
+        <item>804741 - JARAGUA/METRO VILA MADALENA</item>
+        <item>804751 - RECANTO DOS HUMILDES/LAPA</item>
+        <item>806010 - VILA PIAUI/LAPA</item>
+        <item>806210 - PQ S DOMINGOS/LAPA</item>
+        <item>806510 - VILA CLARICE/LAPA</item>
+        <item>847J10 - CITY JARAGUA/JAGUARE</item>
+        <item>847J21 - CITY JARAGUA/LAPA</item>
+        <item>854810 - JD DOS CUNHAS/PCA DO CORREIO</item>
+        <item>888P10 - PERUS/COHAB TAIPAS</item>
+        <item>901210 - ITABERABA/TERM LAPA</item>
+        <item>948A10 - VL ZATTI/TERM PIRITUBA</item>
+        <item>958P10 - JD NARDINI/COHAB TAIPAS</item>
+        <item>N10311 - TERM PIRITUBA/TERM LAPA</item>
+        <item>N13111 - TERM LAPA/VILA PIAUI</item>
+        <item>N13211 - TERM PIRITUBA/PQ SAO DOMINGOS</item>
+        <item>N13311 - TERM PIRITUBA/CID D ABRIL 3ª G</item>
+        <item>N13411 - TERM CACHOEIRINHA/TAIPAS</item>
+        <item>N13511 - TERM PIRITUBA/JD DONARIA</item>
+        <item>N13611 - TERM LAPA/MORRO DOCE</item>
+        <item>129F10 - CONEX PETRON PORT/M BARRA FUND</item>
+        <item>129F41 - CON PETRON PORT/PCA DO CORREIO</item>
+        <item>189610 - JARAGUA/PRAÇA RAMOS DE AZEVEDO</item>
+        <item>199D10 - VILA LORIO/TERMINAL PINHEIROS</item>
+        <item>209P01 - CACHOEIRINHA/TERM PINHEIROS</item>
+        <item>800010 - TERM LAPA/PCA RAMOS</item>
+        <item>800210 - DOMITILA/TERM LAPA</item>
+        <item>805010 - PQ MORRO DOCE/LAPA</item>
+        <item>805021 - ANHANGUERA/LAPA</item>
+        <item>805031 - PQ MORRO DOCE/LAPA</item>
+        <item>805510 - PERUS/LAPA</item>
+        <item>805551 - PERUS/BARRA FUNDA</item>
+        <item>810010 - TERMPIRITUBA/TERM LAPA</item>
+        <item>820010 - TERM PIRITUBA/TERMPIRITUBA</item>
+        <item>821510 - JD PAULISTANO/PCA DO CORREIO</item>
+        <item>830010 - TERM PIRITUBA/TERM LAPA</item>
+        <item>840010 - TERM PIRITUBA/PCA RAMOS</item>
+        <item>846M10 - JD MARISA/SHOP IBIRAPUERA</item>
+        <item>847P10 - TERM PIRITUBA/ITAIM BIBI</item>
+        <item>850010 - TERM PIRITUBA/BARRA FUNDA</item>
+        <item>852810 - JD GUARANI/PCA DO CORREIO</item>
+        <item>854410 - CID DABRIL 3 GLEBA/PC RAMOS AZ</item>
+        <item>854910 - TAIPAS/PCA DO CORREIO</item>
+        <item>859410 - CID DABRIL/PCA RAMOS AZEVEDO</item>
+        <item>859421 - CID PIRITUBA/PCA RAMOS AZEVEDO</item>
+        <item>859441 - COHAB PEDRA VERDE/PCA RAMOS AZ</item>
+        <item>860010 - TERM PIRITUBA/LGO PAISSANDU</item>
+        <item>862210 - MORRO DOCE/PCA RAMOS DE AZEVED</item>
+        <item>867710 - JD LIBANO/PCA RAMOS DE AZEVEDO</item>
+        <item>868610 - MANGALOT/PCA RAMOS AZEVEDO</item>
+        <item>917H10 - MERCADO PIRITUBA/VLA MARIANA</item>
+        <item>930110 - TERM CASA VERDE/PAISSANDU</item>
+        <item>938C10 - COHAB TAIPAS/TERM PRINC ISABEL</item>
+        <item>938C21 - COHAB TAIPAS/TERMINAL LAPA</item>
+        <item>950010 - TERM CACHOEIRINHA/PAISSANDU</item>
+        <item>950110 - TERM  CACHOEIRINHA/PAISSANDU</item>
+        <item>957T10 - COHAB TAIPAS/ITAIM BIBI</item>
+        <item>965310 - PEDRA BRANCA/LGO DO PAISSANDU</item>
+        <item>975A10 - VILA BRASILANDIA/METRO ANA ROS</item>
+        <item>978L10 - TERM CACHOEIRNHA/TERM P ISABEL</item>
+        <item>N10111 - TERM LAPA/TERM PQ D PEDRO II</item>
+        <item>N10211 - TERM LAPA/TERM PQ D PEDRO II</item>
+        <item>N10411 - TERM PIRITUBA/TERM LAPA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>200210 - TERM P D PEDRO II/TERM BANDEIR</item>
+        <item>210010 - TERM V CARRAO/PCA DA SE CIRC</item>
+        <item>210021 - TERM VL CARRAO/TERM PQ D PEDRO</item>
+        <item>210110 - PCA SILVIO ROMERO/PCA DA SE</item>
+        <item>210141 - PCA SILVIO ROMERO/TERM VILA PR</item>
+        <item>229010 - TERM S MATEUS/TERM.PD PEDRO II</item>
+        <item>229021 - T SÃO MATEUS/T PQ D PEDRO II</item>
+        <item>229110 - TERM S MATEUS/PCA DA REPUBLICA</item>
+        <item>303210 - TERM VILA CARRAO/CIRCULAR</item>
+        <item>313910 - JD VILA FORMOSA/PCA CLOVIS</item>
+        <item>316010 - TERM.V.PRUDENTE/ TERM D PEDRO</item>
+        <item>341410 - VILA DALILA/TERM P D PEDRO</item>
+        <item>342M10 - TERM SAO MATEUS/TERM PENHA</item>
+        <item>408A10 - MACHADO DE ASSIS/CARD ALMEIDA </item>
+        <item>411210 - STA MARGARIDA MARIA/PCA REPUBL</item>
+        <item>411310 - GENTIL DE MOURA/PCA REPUBLICA</item>
+        <item>N40211 - METRO ITAQUERA/TERM VL CARRAO</item>
+        <item>N40511 - TERM V CARRAO/METRO ITAQUERA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>718110 - CID.UNIVERSITARIA/T.PR.ISABEL</item>
+        <item>854210 - BRASILANDIA/PCA DO CORREIO</item>
+        <item>854221 - BRASILANDIA/TERMINAL LAPA</item>
+        <item>854510 - PENTEADO/METRO BARRA FUNDA</item>
+        <item>901410 - MORRO GRANDE/TERMINAL LAPA</item>
+        <item>901442 - BNH PORTUGUESA/TERMINAL LAPA</item>
+        <item>916210 - JD.ALMANARA/RIO BRANCO</item>
+        <item>938L10 - TTVN CACHOEIRINHA/LAPA</item>
+        <item>N14311 - METRO BARRA FUNDA/MORRO GRANDE</item>
+        <item>101910 - SOL NASCENTE/TERMINAL PIRITUBA</item>
+        <item>119L01 - VILA SULINA/TERMINAL LAPA</item>
+        <item>800110 - VILA PIAUI/TERM LAPA</item>
+        <item>800310 - V REMEDIOS/TERM LAPA</item>
+        <item>800410 - SANTA MONICA/TERM LAPA</item>
+        <item>800610 - JD DONARIA/TERM PIRITUBA</item>
+        <item>800710 - VILA CLARICE/TERM PIRITUBA</item>
+        <item>800810 - STA MONICA/TERMPIRITUBA</item>
+        <item>800910 - CID DABRIL III/TERMPIRITUBA</item>
+        <item>800931 - CID DABRIL III/TERMPIRITUBA</item>
+        <item>804010 - SOL NASCENTE/LAPA</item>
+        <item>804310 - VILA NOVA ESPERANÇA/LAPA</item>
+        <item>804710 - JARAGUA/LAPA</item>
+        <item>804741 - JARAGUA/METRO VILA MADALENA</item>
+        <item>804751 - RECANTO DOS HUMILDES/LAPA</item>
+        <item>806010 - VILA PIAUI/LAPA</item>
+        <item>806510 - VILA CLARICE/LAPA</item>
+        <item>847J10 - CITY JARAGUA/JAGUARE</item>
+        <item>854810 - JD DOS CUNHAS/PCA DO CORREIO</item>
+        <item>888P10 - PERUS/COHAB TAIPAS</item>
+        <item>901210 - ITABERABA/TERM LAPA</item>
+        <item>948A10 - VL ZATTI/TERM PIRITUBA</item>
+        <item>958P10 - JD NARDINI/COHAB TAIPAS</item>
+        <item>N13311 - TERM PIRITUBA/CID D ABRIL 3ª G</item>
+        <item>N13411 - TERM CACHOEIRINHA/TAIPAS</item>
+        <item>N13511 - TERM PIRITUBA/JD DONARIA</item>
+        <item>N13611 - TERM LAPA/MORRO DOCE</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>115610 - VILA SABRINA/PC DO CORREIO</item>
+        <item>118C10 - JD PERY ALTO/METRO ST CECILIA</item>
+        <item>148L10 - CACHOEIRINHA/LAPA</item>
+        <item>148P10 - JD PERY/LAPA</item>
+        <item>170310 - CAMPO LIMPO/TERM PARADA INGLES</item>
+        <item>172110 - VILA EDE/METRO CARANDIRU</item>
+        <item>172610 - VILA ZILDA/METRO SANTANA</item>
+        <item>174110 - VILA DIONIZIA/METRO SANTANA</item>
+        <item>174210 - JD ANTARTICA/METRO SANTANA</item>
+        <item>174310 - JD PERY ALTO/METRO TIETE</item>
+        <item>174410 - LAUZANE PAULISTA/METRO SANTANA</item>
+        <item>174510 - VL NV CACHOEIRINHA/SHOP C NORT</item>
+        <item>174M10 - JD BRASIL/MUSEU IPIRANGA</item>
+        <item>175610 - PEDRA BRANCA/METRO SANTANA</item>
+        <item>175710 - CONJ BANCARIOS/METRO SANTANA</item>
+        <item>175810 - JD ANTARTICA/METRO SANTANA</item>
+        <item>175910 - JD PERY/METRO SANTANA</item>
+        <item>176010 - COHAB ANTARTICA/SHOP C NORTE</item>
+        <item>176410 - JD CORISCO/METRO SANTANA</item>
+        <item>176510 - JD CABUÇU/METRO TUCURUVI</item>
+        <item>176710 - EDU CHAVES/METRO TUCURUVI</item>
+        <item>177110 - VILA ZILDA/METRO SANTANA</item>
+        <item>177210 - JD FILHOS DA TERRA/METRO TUCUR</item>
+        <item>177310 - VILA AYROSA/METRO SANTANA</item>
+        <item>177810 - JACANA/METRO SANTANA</item>
+        <item>177H10 - METRO SANTANA/BUTANTA- USP</item>
+        <item>177H21 - METRO SANTANA/PINHEIROS</item>
+        <item>178210 - V NOVA GALVAO/METRO SANTANA</item>
+        <item>178310 - CACHOEIRA/METRO SANTANA</item>
+        <item>178810 - JD FONTALIS/METRO SANTANA</item>
+        <item>178851 - JD CAMPO LIMPO/METRO SANTANA</item>
+        <item>178L10 - LAUZANE PAULISTA/HOSP CLINICAS</item>
+        <item>178T10 - METRO SANTANA/CEASA</item>
+        <item>201010 - JD BRASIL/METRO TIETE</item>
+        <item>201110 - EDU CHAVES/METRO SANTANA</item>
+        <item>201210 - VILA EDE/METRO TIETE</item>
+        <item>202010 - HORTO FLORESTAL/M PARADA INGLE</item>
+        <item>202310 - CACHOEIRA/METRO TUCURUVI</item>
+        <item>202341 - JD LABITARY/METRO TUCURUVI</item>
+        <item>202410 - CACHOEIRA/DIB - CIRCULAR</item>
+        <item>202510 - CACHOEIRA/DIB - CIRCULAR</item>
+        <item>202610 - JAÇANA/PARQUE NOVO MUNDO</item>
+        <item>202810 - VILA AYROSA/METRO TUCURUVI</item>
+        <item>202910 - JD FONTALIS/METRO TUCURUVI</item>
+        <item>203010 - LAUZANE PAULISTA/METRO SANTANA</item>
+        <item>203210 - PQ EDU CHAVES/METRO CARANDIRU</item>
+        <item>203310 - JD GUANCA/TERM ROD TIETE</item>
+        <item>209P10 - CACHOEIRINHA/TERM PINHEIROS</item>
+        <item>210510 - JD FILHOS DA TERRA/LGO DA CONC</item>
+        <item>211L10 - MANDAQUI/LAPA</item>
+        <item>213E10 - PQ EDU CHAVES/METRO BELEM</item>
+        <item>217510 - JD GUANCA/PCA DA SE</item>
+        <item>217531 - JD GUANCA / PRACA DA SE</item>
+        <item>218210 - JD BRASIL/PCA DO CORREIO</item>
+        <item>271A10 - TERM PENHA/METRO SANTANA</item>
+        <item>271A51 - CANGAIBA/METRO SANTANA</item>
+        <item>271M10 - PQ NOVO MUNDO/METRO SANTANA</item>
+        <item>271P10 - CANGAIBA/EST DA LUZ</item>
+        <item>274010 - PEDRA BRANCA/METRO SANTANA</item>
+        <item>278A10 - PENHA/CEASA</item>
+        <item>297A10 - BAIRRO DO LIMAO/M BARRA FUNDA</item>
+        <item>351F10 - JACANA/TERM CARRAO</item>
+        <item>701A10 - PQ EDU CHAVES/METRO V MADALENA</item>
+        <item>916610 - JD SANTA CRUZ/PÇA DO CORREIO</item>
+        <item>967A10 - IMIRIM/PINHEIROS</item>
+        <item>970110 - ANHEMBI/METRO BARRA FUNDA</item>
+        <item>971A10 - JD PRIMAVERA/METRO SANTANA</item>
+        <item>971D10 - JD DAMASCENO/CENTER NORTE</item>
+        <item>971D31 - JD DAMASCENO/METRO SANTANA</item>
+        <item>971M10 - VILA PENTEADO/METRO SANTANA</item>
+        <item>971R10 - ESTACAO JARAGUA/METRO SANTANA</item>
+        <item>971R42 - CDHU VOITH/METRO SANTANA</item>
+        <item>971T10 - VILA SANTA MARIA/METRO SANTANA</item>
+        <item>971V10 - JD VISTA ALEGRE/CENTER NORTE</item>
+        <item>CT0101 - CIRCULAR TURISMO</item>
+        <item>N20111 - TERM PQ D PEDRO/METRO TUCURUVI</item>
+        <item>N20211 - MET SANTANA/TERM PINHEIROS</item>
+        <item>N20311 - MET TUCURUVI/TERM PQ D PEDRO </item>
+        <item>N20411 - METRO TUCURUVI/TERM PQ D PEDRO</item>
+        <item>N20511 - TERM CACHOEIRINHA/TERM PINHEIR</item>
+        <item>N20611 - TERM CASA VERDE/METRO SANTANA</item>
+        <item>N20711 - TERM CASA VERDE/TERM PQ D PEDR</item>
+        <item>N20911 - TERM CACHOEIRINHA/TERM SANTANA</item>
+        <item>N23311 - METRO SANTANA/VILA SABRINA</item>
+        <item>N23511 - METRO SANTANA/PEDRA BRANCA</item>
+        <item>N23611 - METRO SANTANA/JARDIM ANTARTICA</item>
+        <item>N23711 - METRO TUCURUVI/EDU CHAVES</item>
+        <item>N23811 - METRO SANTANA/CEM PQ DOS PINHE</item>
+        <item>N23911 - METR TUCURUVI/VILA NOVA GALVAO</item>
+        <item>N24011 - METRO SANTANA/CACHOEIRA</item>
+        <item>N24211 - METRO SANTANA/JD CAMPO LIMPO</item>
+        <item>N24311 - METRO SANTANA/JARDIM BRASIL</item>
+        <item>N24411 - METRO TUCURUVI/JD FLOR DE MAIO</item>
+        <item>N24511 - METRO SANTANA/JARDIM PERY ALTO</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>203110 - JD CAMARGO NOVO/TERM A E CARVA</item>
+        <item>207610 - JD DAS OLIVEIRAS/TERM PENHA</item>
+        <item>207910 - JD NELIA/TERM ARICANDUVA</item>
+        <item>208010 - CID KEMEL/TERM ARICANDUVA</item>
+        <item>208810 - CJ ENCOST NORTE/T A E CARVALHO</item>
+        <item>267810 - OLIVEIRINHA/TERM P D PEDRO</item>
+        <item>267811 - TERM A E CARVALHO/OLIVEIRINHA</item>
+        <item>267841 - J CAMARGO NOVO/TERM ARICANDUVA</item>
+        <item>273J10 - JD ROMANO/METRO PENHA</item>
+        <item>273N10 - CID KEMEL II/MTR V MATILDE</item>
+        <item>273N41 - ITAIM PAULISTA/MT VLA MATILDE</item>
+        <item>273X10 - JD OLIVEIRAS/MT ARTUR ALVIN</item>
+        <item>276610 - J CAMARGO VELHO/METRO ITAQUERA</item>
+        <item>276641 - JD INDAIA/METRO ITAQUERA</item>
+        <item>278010 - JD CAMARGO NOVO/METRO ITAQUERA</item>
+        <item>300110 - ITAIM PTA/TERM.SAO MIGUEL</item>
+        <item>301510 - JD ROMANO/JARDIM DAS OLIVEIRAS</item>
+        <item>307C10 - CONJ ENCOSTA NORTE/MT ARTUR AL</item>
+        <item>345910 - ITAIM PAULISTA/TERM P D PEDRO</item>
+        <item>352A10 - JD.HELENA-TERM.SAO MATEUS</item>
+        <item>390210 - Jd. das Oliveiras/Guaianazes</item>
+        <item>431410 - INACIO MONTEIRO/T PQ D PEDRO </item>
+        <item>N30411 - TER SAO MIGUEL/TERM ARICANDUVA</item>
+        <item>N30511 - TERM SAO MIGUEL/CPTM GUAIANAZE</item>
+        <item>N30611 - TERM SAO MIGUEL/METRO ITAQUERA</item>
+        <item>N33611 - T SAO MIGUEL/JD CARMARGO VELHO</item>
+        <item>N33711 - T SAO MIGUEL/JD CAMARGO VELHO</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>508L10 - TERM.PRIN.ISABEL/ACLIMACAO</item>
+        <item>805L10 - TERM.PRINC.ISABEL/ACLIMACAO</item>
+        <item>930P10 - TERM PQ D PEDRO II/PINHEIROS</item>
+        <item>N30711 - TERMP Q D PEDRO II/TERM PINHEI</item>
+        <item>205810 - SAO MIGUEL-GUAIANAZES</item>
+        <item>206010 - T.A.E.CARVALHO/METRO A. ALVIM</item>
+        <item>211V10 - VILA PARANAGUA-ESTACAO DA LUZ</item>
+        <item>233A10 - JD HELENA-CERET</item>
+        <item>233C10 - TERM.A.E.CARVALHO-CERET</item>
+        <item>235E10 - TERM A E CARV/TERM PQ D PEDRO </item>
+        <item>236310 - JD.DANFER-PQ.D.PEDRO II</item>
+        <item>243510 - JD COIMBRA-PÇA DA SE</item>
+        <item>245110 - VL S FRANCISCO/PQ D PEDRO II</item>
+        <item>252210 - VILA PROGRESSO-SHOP.ARICANDUVA</item>
+        <item>258310 - VILA CURUCA/TERM P D PEDRO</item>
+        <item>263C10 - JD HELENA/COHAB II</item>
+        <item>263J10 - PENHA/CJ JOSE BONIFACIO</item>
+        <item>271310 - METRO PENHA-CHAC BELA VISTA</item>
+        <item>273D10 - PQ D JOAO NERY-METRO A ALVIN</item>
+        <item>273F10 - VILA MARA-METRO ITAQUERA</item>
+        <item>273G10 - JD HELENA-METRO A ALVIN</item>
+        <item>273G21 - JD SAO MARTINHO/CPTM VILA MARA</item>
+        <item>273J10 - JD ROMANO/METRO PENHA</item>
+        <item>273L10 - JD MORENO-METRO A ALVIN</item>
+        <item>273R10 - JD ROBRU-METRO A ALVIN</item>
+        <item>273R42 - JD ROBRU-METRO ITAQUERA</item>
+        <item>273V10 - PARADA XV NOVEMBRO-METRO PENHA</item>
+        <item>275510 - GUAIANAZES-METRO PENHA</item>
+        <item>275610 - GUAIANAZES-METRO PATRIARCA</item>
+        <item>276510 - VILA CISPER-METRO TATUAPE</item>
+        <item>277210 - JD NAZARE/METRO PENHA</item>
+        <item>300310 - JD S MARTINHO/CPTM VILA MARA</item>
+        <item>300410 - JD S MARTINHO/CPTM V MARA</item>
+        <item>320610 - METRO PENHA/CONJ CHAPARRAL</item>
+        <item>346210 - VILA SANTANA/T PQ D PEDRO II</item>
+        <item>346241 - CID A E CARVALHO-T PQ D PEDRO </item>
+        <item>374910 - GUAIANAZES-TERM CARRAO</item>
+        <item>374M10 - CPTM ERM MAT/METRO ITAQUERA</item>
+        <item>390110 - Jd. Danfer/Metro Penha</item>
+        <item>390310 - C.A.E.Carvalho/Shop.Penha</item>
+        <item>N30311 - T A E CARVALHO/TERM ARICANDUVA</item>
+        <item>N33411 - T A E CARVALHO/CPTM GUAIANAZES</item>
+        <item>N33511 - TERM PENHA/ERMELINO MATARAZZO</item>
+        <item>N33911 - METRO ITAQUERA/ARTUR ALVIM</item>
+        <item>N34011 - METRO ITQUERA/JD SANTO ANTONIO</item>
+        <item>N34211 - TERM PENHA/JARDIM DANFER</item>
+        <item>N34311 - T A E CARVALHO/METRO ITAQUERA</item>
+        <item>N40411 - TERM SAO MATEUS/TERM PENHA</item>
+        <item>312N10 - TERM CID TIRADENTES/SAO MIGUEL</item>
+        <item>353910 - CIDADE TIRADENTES/TERM P D PED</item>
+        <item>400310 - PRESTES MAIA/ E. T. ITAQUERA </item>
+        <item>400410 - T CID TIRADENTES/BARRO BRANCO</item>
+        <item>400510 - T CID TIRADENTES/BARRO BRANCO</item>
+        <item>400610 - JD NOVA VITORIA/CIRCULAR</item>
+        <item>400621 - JARDIM NOVA VITORIA/CIRCULAR</item>
+        <item>400710 - COHAB JUSCELINO/TERM V CARRAO</item>
+        <item>400810 - JD CIBELE/TERM VILA CARRAO</item>
+        <item>400821 - COHAB JOSE BONIFACIO C/CIRCULA</item>
+        <item>401010 - JD NSA SRA DO CARMO/T V CARRAO</item>
+        <item>401110 - JD LIMOEIRO/TERM SAO MATEUS</item>
+        <item>401210 - JD DA CONQUISTA/T SAO MAETEUS</item>
+        <item>401310 - JD SANTO ANDRE/TERM SAO MATEUS</item>
+        <item>401410 - JD VILA CARRAO/TER VILA CARRAO</item>
+        <item>401510 - T SAO MATEUS/JD RODOLFO PIRANI</item>
+        <item>401610 - T SAO MATEUS/JD RODOLFO PIRANI</item>
+        <item>401710 - VILA YOLANDA/METALURGICOS</item>
+        <item>401810 - METALURGICOS/TERM SAO MATEUS</item>
+        <item>402410 - COHAB FAZE DO CAR/E.T.ITAQUERA</item>
+        <item>403A10 - EST JOSE BONIFACIO/TERM PENHA</item>
+        <item>407A10 - SHOP C L ARICANDUVA/METR BELEM</item>
+        <item>407A21 - SHOP ARICANDUVA/METRO BELEM</item>
+        <item>407E10 - JD SANTO ANDRE/METRO CARRAO</item>
+        <item>407G10 - JD NOVA VITORIA/METRO CARRAO</item>
+        <item>407H10 - JD SAO FRANCISCO/METR ITAQUERA</item>
+        <item>407I10 - COHAB I/METRO BRESSER</item>
+        <item>407I21 - CJ MANOEL DA NOBREGA/M TATUAPE</item>
+        <item>407J10 - JD SOARES/METRO TATUAPE</item>
+        <item>407L10 - BARRO BRANCO/M GUILHERMINA ESP</item>
+        <item>407N10 - T CID TIRADENTES/METRO PENHA</item>
+        <item>407P10 - TERM CID TIRADENTES/M TATUAPE</item>
+        <item>407R10 - TERM VILA CARRAO/METRO BELEM</item>
+        <item>407W10 - JD. IV CENTERNARIO/METR CARRAO</item>
+        <item>407Y10 - PQ SAVOY CITY/METRO V PRUDENTE</item>
+        <item>507T10 - TERM SAPOPEMBA/METRO CARRAO</item>
+        <item>N40311 - T CID TIRADENTES/METRO ITAQUER</item>
+        <item>N40611 - TERM CID TIRADENTES/T S MATEUS</item>
+        <item>N40711 - TERM V CARRAO/METRO BELEM</item>
+        <item>N43111 - TER SAO MATEUS/JD DA CONQUISTA</item>
+        <item>N43211 - TERM SAO MATEUS/JD STO ANDRE</item>
+        <item>N43411 - TERM V CARRAO/JD IV CENTENARIO</item>
+        <item>N43511 - T CID TIRANDENTES/METALURGICOS</item>
+        <item>N43611 - TE CID TIRADENTES/BARRO BRANCO</item>
+        <item>N43711 - EST GUAIANAZES/T CID TIRADENTE</item>
+        <item>N43911 - M ITAQUERA/COHAB FAZ DO CARMO</item>
+        <item>N44111 - TERM CID TIRANDESTES/VL YOLAND</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>302110 - PQ BANCARIO/TERM VILA PRUDENTE</item>
+        <item>302410 - VLA INDUSTRIAL/TER VL PRUDENTE</item>
+        <item>314J10 - STA MADALENA/METRO LIBERDADE</item>
+        <item>314V10 - VILA EMA/METRO LIBERDADE</item>
+        <item>373M10 - JD GUAIRACA/SHOP METR TATUAPE</item>
+        <item>374610 - JD IMPERADOR/METRO BELEM</item>
+        <item>374631 - JD IMPERADOR/METRO BELEM</item>
+        <item>407M10 - VILA MONUMENTO/VILA MADALENA</item>
+        <item>411110 - VILA MONUMENTO/PÇA REPUBLICA</item>
+        <item>411410 - VILA GUMERCINDO/TER PQ D PEDRO</item>
+        <item>411510 - SHOP PLAZA SUL/PÇ REPUBLICA</item>
+        <item>422110 - JD PLANALTO/TERM P D PEDRO</item>
+        <item>422210 - PQ STA MADALENA/PÇA J MENDES</item>
+        <item>425E10 - JD. ESTER/TERM. SAPOPEMBA</item>
+        <item>428410 - V CALIFORNIA/T PQ D PEDRO II</item>
+        <item>428610 - VILA INDUSTRIAL/PÇA DO CORREIO</item>
+        <item>428810 - VILA INDUSTRIAL/T P D PEDRO II</item>
+        <item>449110 - ZOOLOGICO/TERM P D PEDRO</item>
+        <item>470610 - J MARIA ESTELA II/MT V MARIANA</item>
+        <item>470810 - JD CLIMAX/METRO VILA MARIANA</item>
+        <item>470910 - PQ BRISTOL/METRO V MARIANA</item>
+        <item>471710 - JD MARIA ESTELA/METRO STA CRUZ</item>
+        <item>471810 - JD CELESTE/METRO STA CRUZ</item>
+        <item>472110 - SHOP PLAZA SUL/METRO JABAQUARA</item>
+        <item>472510 - VILA BRASILINA/SH C IBIRAPUERA</item>
+        <item>472710 - JD CLIMAX/METRO PÇ ARVORE</item>
+        <item>473210 - VILA LIVIERO/METRO SAUDE</item>
+        <item>473231 - VILA LIVIERO/METRO SAUDE</item>
+        <item>474210 - JD CLIMAX/METRO SAO JUDAS</item>
+        <item>475M10 - JD DA SAUDE/T AMARAL GURGEL</item>
+        <item>475R10 - JD SAO SAVERIO/TERM P D PEDRO</item>
+        <item>476A10 - IPIRANGA/TERM STO AMARO</item>
+        <item>477A10 - SACOMA/CEASA</item>
+        <item>477P10 - IPIRANGA/RIO PEQUENO</item>
+        <item>477U10 - HELIOPOLIS/SHOP IGUATEMI CIRC</item>
+        <item>478P10 - SACOMA/POMPEIA</item>
+        <item>502110 - AGUA FUNDA/TERM SACOMA</item>
+        <item>502610 - CJ.TEOT.VILELA/JD.SAO ROBERTO</item>
+        <item>502810 - CJ HAB HELIOP/MUSEU IPIRANGA</item>
+        <item>502910 - JD PATENTE/TERM SACOMA</item>
+        <item>503010 - JD MARIA ESTELA/TERM SACOMA</item>
+        <item>503310 - VILA BRASILINA/TERM SACOMA</item>
+        <item>503410 - VILA LIVIERO/TERM SACOMA</item>
+        <item>503431 - TERM SACOMA/VILA LIVIERO</item>
+        <item>503610 - JD CELESTE/TERM SACOMA</item>
+        <item>503810 - PQ. BRISTOL/TERM SACOMA</item>
+        <item>510110 - TERM SACOMA/ TERM PQ D PEDRO</item>
+        <item>510310 - TERM. SACOMA/MOEMA</item>
+        <item>510710 - TERM SACOMA/TERM CORREIO</item>
+        <item>510810 - JD CELESTE/TERM PQ D PEDRO II</item>
+        <item>511010 - TERM SAO MATEUS/TERM MERCADO</item>
+        <item>513L10 - TERM SACOMA/PENHA</item>
+        <item>514310 - TERM.SAPOPEMBA/T.D.PEDRO II</item>
+        <item>514510 - TERM.SAPOPEMBA/PCA.ALMEIDA JR.</item>
+        <item>570510 - TERM SACOMA/METRO VERGUEIRO</item>
+        <item>574J10 - METRO CONCEICAO/T VILA CARRAO</item>
+        <item>575C10 - VILA MATIAS/METRO CONCEICAO</item>
+        <item>N50211 - TERM SACOMA/TERM PQ D PEDRO II</item>
+        <item>N50411 - TERM SACOMA/TERM PQ D PEDRO II</item>
+        <item>N50511 - TERM SACOMA/TERM PINHEIROS</item>
+        <item>N50611 - TERM SACOMA/METRO VL MADALENA</item>
+        <item>N50711 - TERM SACOMA/METRO SANTANA</item>
+        <item>N50811 - TERM SACOMA/TERM PQ D PEDRO II</item>
+        <item>N53111 - T SAPOPEMBA/TEOTONIO T SACOMA</item>
+        <item>N53211 - T SAPOPEMBA/TEOTONIO H S MATEU</item>
+        <item>N53311 - TERM SACOMA/JARDIM PLANALTO</item>
+        <item>N53511 - TERM SACOMA/JARDIM CELESTE</item>
+        <item>N53711 - METRO VL MARIANA/VILA PRUDENTE</item>
+        <item>N53811 - TERM SACOMA/JARDIM CELESTE</item>
+        <item>N54011 - TERM SAPOP TEOT VILE/JS SAO RO</item>
+        <item>476L10 - LAR ESCOLA S FRANCISC/CIRCULAR</item>
+        <item>502J10 - VILA PEDREIRA/PQ.DO IBIRAPUERA</item>
+        <item>502J21 - ESTACAO AUTODROMO/VILA JOANIZA</item>
+        <item>502J22 - ESTACAO AUTODROMO/VILA JOANIZA</item>
+        <item>502J23 - CPTM AUTODROMO/METRO CONCEICAO</item>
+        <item>509110 - JD UBIRAJARA/MOEMA CIRCULAR</item>
+        <item>516410 - V.STA.CATARINA/LGO.S.FRANCISCO</item>
+        <item>516421 - CIDADE LEONOR/HOSP SAO PAULO</item>
+        <item>516441 - VILA GUARANI - CIRCULAR</item>
+        <item>519421 - JD S JORGE ATÉ APURA/AEROPORTO</item>
+        <item>561110 - ELDORADO/PCA JOAO MENDES</item>
+        <item>572J10 - Metro São Judas (Circular)</item>
+        <item>574A10 - AMERICANOPOLIS/LGO CAMBUCI</item>
+        <item>574A21 - JD LOURDES / CIRCULAR</item>
+        <item>576C10 - METRO JABAQUARA/TERM.STO AMARO</item>
+        <item>579110 - ELDORADO/METRO PARAISO</item>
+        <item>579121 - ELDORADO/METRO JABAQUARA</item>
+        <item>605A10 - M JABAQUARA/CENTRO PARALIMPICO</item>
+        <item>609J10 - AEROPORTO/METRO SÃO JUDAS</item>
+        <item>675M10 - Centro Sesc - M Jabaquara</item>
+        <item>675P10 - SHOP SP MARKET/METRO CONCEIÇAO</item>
+        <item>875A10 - AEROPORTO/PERDIZES</item>
+        <item>N63311 - MET JABAQUARA/MORUMBI SHOPING</item>
+        <item>N63411 - TERM SANTO AMARO/JARDIM LUSO</item>
+        <item>518510 - TERM GUARAPIRANGA/PQ D PEDRO </item>
+        <item>604910 - VALO VELHO/STO AMARO</item>
+        <item>647510 - JD.VAZ DE LIMA/PCA DA SE</item>
+        <item>647A10 - VALO VELHO/PINHEIROS</item>
+        <item>647P10 - COHAB ADVENTISTA/PINHEIROS</item>
+        <item>669A10 - TERM STO AMARO-TERM PRI ISABEL</item>
+        <item>675A10 - PQ.STO AMARO/METRO SAO JUDAS</item>
+        <item>695T10 - TERM.CAPELINHA/METRO V.MARIANA</item>
+        <item>695T51 - TERM CAPELINHA/METRO V MARIANA</item>
+        <item>695V10 - TERM CAPELINHA-METRO ANA ROSA</item>
+        <item>705010 - JD DAS ROSAS/TERM CAMPO LIMPO</item>
+        <item>707K10 - GUARAPIRANGA/METRO JABAQUARA</item>
+        <item>857A10 - T CAMPO LIMPO/METRO SANTA CRUZ</item>
+        <item>857C10 - T CAMPO LIMPO/METRO CONCEIÇAO</item>
+        <item>860510 - TERM CAMPO LIMPO/TERM BANDEIRA</item>
+        <item>N74211 - TERM JOAO DIAS/TERM PINHEIROS</item>
+        <item>N74511 - TER CAPELINHA/TERM CAMPO LIMPO</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>510010 - EST.FEP.PINHEIROS/PCA DA SE</item>
+        <item>702U10 - BUTANTA USP/PARQUE D. PEDRO II</item>
+        <item>718110 - CID.UNIVERSITARIA/T.PR.ISABEL</item>
+        <item>719P10 - PINHEIROS/METRO ARMENIA</item>
+        <item>726710 - APIACAS/PÇA RAMOS AZEVEDO</item>
+        <item>727210 - VILA POMPEIA/P.RAMOS AZEV.CIRC</item>
+        <item>728110 - LAPA/P.RAMOS AZEVEDO CIRCULAR</item>
+        <item>728210 - PQ CONTINENTAL/M VILA MADALENA</item>
+        <item>741110 - USP/PCA DA SE</item>
+        <item>809U10 - CID UNIVERSITARIA/M BARRA FUN </item>
+        <item>809U21 - M BARRA FUNDA/M VILA MADALENA</item>
+        <item>817C10 - LAPA/H.CLINICAS CIRCULAR</item>
+        <item>831910 - PQ CONTINENTAL/PCA RAMOS AZEVE</item>
+        <item>831921 - SHOP VILA LOBOS/PQ CONTINENAL</item>
+        <item>856R10 - LAPA/SOCORRO</item>
+        <item>856R21 - LAPA/SHOPPING IGUATEMI</item>
+        <item>861510 - P.LAPA/PARQUE D. PEDRO II</item>
+        <item>870001 - T C LIMPO/PCA RAMOS DE AZEVED </item>
+        <item>870024 - LGO DO TABOAO/PCA RAMOS DE AZE</item>
+        <item>874C10 - PQ CONTINENTAL/METR V MARIANA</item>
+        <item>875C01 - TERM LAPA/METRO STA CRUZ</item>
+        <item>875C10 - LAPA/METRO STA CRUZ</item>
+        <item>875H10 - LAPA/METRO VILA MARIANA</item>
+        <item>875P10 - M. BARRA FUNDA/M. ANA ROSA</item>
+        <item>877T10 - VILA ANASTACIO/METRO PARAISO</item>
+        <item>905010 - TERM LAPA / ITAIM BIBI</item>
+        <item>905110 - LAPA / PINHEIROS</item>
+        <item>909T10 - TER PINHEIRO/ TER P Q D PEDRO</item>
+        <item>N80211 - TERM PINHEIROS/T PQ D PEDRO II</item>
+        <item>N83111 - TERM LAPA/PARQUE DA LAPA</item>
+        <item>N83311 - TERM PINHEIROS/CEASA</item>
+        <item>N83411 - TERM LAPA/TERMINAL PINHEIROS</item>
+        <item>N83811 - M VILA MADALENA/CPTM LEOP0LDIN</item>
+        <item>N83911 - METRO BUTANTA/METRO V MARIANA</item>
+        <item>511923 - TE JOAO DIAS/INST LUCY MONTORO</item>
+        <item>680110 - JD.IBIRAPUERA-TERM JOAO DIAS</item>
+        <item>680151 - JD IBIRAPUERA/TERM JOAO DIAS</item>
+        <item>680310 - JD.CAPELINHA-TERM JOAO DIAS</item>
+        <item>680410 - JD.INGA-TERM JOAO DIAS</item>
+        <item>680510 - TERM CAPELINHA-TERM JOAO DIAS</item>
+        <item>680531 - TERM CAPELINHA/TERM JOAO DIAS</item>
+        <item>680610 - JD NOVO HORIZONTE-T.JOAO DIAS</item>
+        <item>681310 - JD LIDIA-TERM CAPELINHA</item>
+        <item>681510 - JD COMERCIAL-TERM CAPELINHA</item>
+        <item>681610 - JD MITSUTANI-TERM CAPELINHA</item>
+        <item>681631 - JARDIM MITSUTANI/TERM CAPELINH</item>
+        <item>681710 - JD SAO BENTO-TERM CAPELINHA</item>
+        <item>681810 - JD VALE DAS VIRTUDES-T.CAPELIN</item>
+        <item>682010 - JD DAS ROSAS-TERM CAPELINHA</item>
+        <item>682031 - JD.ROSAS/TERM. CAPELINHA</item>
+        <item>682110 - JD JANGADEIRO-TERM CAPELINHA</item>
+        <item>682210 - JD MACEDONIA-TERM CAPELINHA</item>
+        <item>682310 - JD. GUARUJA-TERM. CAPELINHA</item>
+        <item>682410 - PQ FERNANDA-TERM CAPELINHA</item>
+        <item>682510 - VALO VELHO-TERM CAPELINHA</item>
+        <item>682610 - JD STO EDUARDO-TERM CAPELINHA</item>
+        <item>683510 - VALO VELHO- TERM CAPELINHA</item>
+        <item>683531 - VALO VELHO/TERM.CAPELINHA</item>
+        <item>683610 - CAPAO REDONDO-TERM JOAO DIAS</item>
+        <item>705910 - PQ DO ENGENHO/TERM CAMPO LIMPO</item>
+        <item>706010 - VALO VELHO/TERM CAMPO LIMPO</item>
+        <item>N70111 - TERM STO AMARO/T PQ D PEDRO II</item>
+        <item>N70411 - TERM CAPELINHA/TERM STO AMARO</item>
+        <item>N70611 - TERM CAMPO LIMPO/TERM PINHEIRO</item>
+        <item>N73111 - TERM CAPELINHA/TERM STO AMARO</item>
+        <item>N73411 - TERM CAPELINHA/VALO VELHO</item>
+        <item>N73511 - TERM CAPELINHA/JARDIM GUARUJA</item>
+        <item>N74111 - TERM CAPELINHA/VALO VELHO</item>
+        <item>N74411 - TERM JOAO DIAS/JD VAZ DE LIMA</item>
+        <item>623210 - VILA IDA/PCA RAMOS AZEVEDO</item>
+        <item>625010 - JD JAQUELINE/TERM BANDEIRA</item>
+        <item>626210 - CEASA/TERM.BANDEIRA</item>
+        <item>702C10 - JD BONFIGLIOLI/BELEM</item>
+        <item>714C10 - COHAB EDUCANDARIO/LGO POLVORA</item>
+        <item>719R10 - RIO PEQUENO/METRO BARRA FUNDA</item>
+        <item>748A10 - JD DABRIL/LAPA</item>
+        <item>748A41 - JD PERI PERI/LAPA</item>
+        <item>748R10 - JD JOAO XXIII/METRO BARRA FUNDA</item>
+        <item>772510 - RIO PEQUENO/METRO VILA MADALENA</item>
+        <item>775A10 - JD ADALGIZA/METRO VILA MARIANA</item>
+        <item>775N10 - RIO PEQUENO/METRO V MARIANA</item>
+        <item>775V10 - RIO PEQUENO/METRO STA CRUZ</item>
+        <item>778J10 - JD ARPOADOR/METRO BARRA FUNDA</item>
+        <item>778J41 - COHAB RAP.TAVARES-BARRA FUNDA</item>
+        <item>801810 - VILA SONIA/BUTANTA</item>
+        <item>801910 - PQ CONTINENTAL/BUTANTA</item>
+        <item>802010 - BUTANTA/SHOP MORUMBI</item>
+        <item>802110 - JD. MARIA LUIZA/BUTANTA</item>
+        <item>802310 - CDHU RAPOSO TAVARES/BUTANTA</item>
+        <item>802410 - JD JAQUELINE/BUTANTA</item>
+        <item>802710 - VILA DALVA/BUTANTA</item>
+        <item>807710 - JD JOAO XXIII/METRO BUTANTA</item>
+        <item>809D10 - COHAB EDUCANDARIO/PINHEIROS</item>
+        <item>809H10 - JD BOA VISTA/LAPA</item>
+        <item>809J10 - JD COLOMBO/PINHEIROS</item>
+        <item>809N10 - VILA DALVA/LAPA</item>
+        <item>809R10 - RIO PEQUENO/PINHEIROS</item>
+        <item>809T10 - RAPOSO TAVARES/LAPA</item>
+        <item>825210 - LAPA/PCA RAMOS DE AZEVEDO</item>
+        <item>857R10 - TERM CAMPO LIMPO/ACLIMACAO</item>
+        <item>857R41 - E HEBRAICA REBOUÇAS/M PARAISO</item>
+        <item>861010 - JD PAULO VI/TERM BANDEIRA </item>
+        <item>870710 - RIO PEQUENO/TERM PRINC ISABEL</item>
+        <item>875C10 - LAPA/METRO STA CRUZ</item>
+        <item>909T01 - TERM PINHEIROS/TERM PQ D PEDRO</item>
+        <item>N83211 - TERM LAPA/PARQUE CONTINENTAL</item>
+        <item>N83511 - TERM PINHEIROS/JD JOÃO XXIII</item>
+        <item>N83611 - TERM PINHEIROS/PQ CONTINENTAL</item>
+        <item>N84011 - M VILA MARIANA/SANTA CECILIA</item>
+        <item>N84111 - METRO VILA MARIANA/STA CECILIA</item>
+        <item>N84211 - T PINHEIROS/COHAB RAPOSO TAVAR</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>801210 - CIDADE UNIVERSIT/METRO BUTANTA</item>
+        <item>802210 - CID UNIV/METRO BUTANTA</item>
+        <item>803210 - METRO BUTANTA/CID UNIVERSITARI</item>
+        <item>312N10 - TERM CID TIRADENTES/SAO MIGUEL</item>
+        <item>407R10 - TERM VILA CARRAO/METRO BELEM</item>
+        <item>9931PR - TERM CIDADE TIRAD/EXPRESS</item>
+        <item>9939PR - TERMINAL SACOMA/TERREO AR5</item>
+        <item>119C10 - VILA SABRINA/TERM PRINC ISABEL</item>
+        <item>212710 - JD BRASIL/METRO LIBERDADE</item>
+        <item>218210 - JD BRASIL/PCA DO CORREIO</item>
+        <item>271A10 - TERM PENHA/METRO SANTANA</item>
+        <item>275510 - GUAIANAZES-METRO PENHA</item>
+        <item>800001 - TERM LAPA/PCA RAMOS DE AZEVEDO</item>
+        <item>830001 - TERM PIRITUBA/TERM LAPA</item>
+        <item>853810 - VILA IARA/PAISSANDU</item>
+        <item>854210 - BRASILANDIA/PCA DO CORREIO</item>
+        <item>854221 - BRASILANDIA/TERMINAL LAPA</item>
+        <item>917M10 - MORRO GRANDE/METRO ANA ROSA</item>
+        <item>917M31 - MORRO GRANDE/METRO ANA ROSA</item>
+        <item>938L10 - TTVN CACHOEIRINHA/LAPA</item>
+        <item>978A10 - TTVN CACHOEIRINHA/MBARRA FUNDA</item>
+        <item>N10511 - TERM CACHOEIRINHA/TERM LAPA</item>
+        <item>129F10 - CONEX PETRON PORT/M BARRA FUND</item>
+        <item>129F41 - CON PETRON PORT/PCA DO CORREIO</item>
+        <item>189610 - JARAGUA/PRAÇA RAMOS DE AZEVEDO</item>
+        <item>199D10 - VILA LORIO/TERMINAL PINHEIROS</item>
+        <item>209P01 - CACHOEIRINHA/TERM PINHEIROS</item>
+        <item>800010 - TERM LAPA/PCA RAMOS</item>
+        <item>800210 - DOMITILA/TERM LAPA</item>
+        <item>805010 - PQ MORRO DOCE/LAPA</item>
+        <item>805021 - ANHANGUERA/LAPA</item>
+        <item>805031 - PQ MORRO DOCE/LAPA</item>
+        <item>805510 - PERUS/LAPA</item>
+        <item>805551 - PERUS/BARRA FUNDA</item>
+        <item>810010 - TERMPIRITUBA/TERM LAPA</item>
+        <item>820010 - TERM PIRITUBA/TERMPIRITUBA</item>
+        <item>821510 - JD PAULISTANO/PCA DO CORREIO</item>
+        <item>830010 - TERM PIRITUBA/TERM LAPA</item>
+        <item>840010 - TERM PIRITUBA/PCA RAMOS</item>
+        <item>846M10 - JD MARISA/SHOP IBIRAPUERA</item>
+        <item>847P10 - TERM PIRITUBA/ITAIM BIBI</item>
+        <item>847P42 - VILA BRASILANDIA/ITAIM BIBI</item>
+        <item>850010 - TERM PIRITUBA/BARRA FUNDA</item>
+        <item>852810 - JD GUARANI/PCA DO CORREIO</item>
+        <item>854410 - CID DABRIL 3 GLEBA/PC RAMOS AZ</item>
+        <item>854810 - JD DOS CUNHAS/PCA DO CORREIO</item>
+        <item>854910 - TAIPAS/PCA DO CORREIO</item>
+        <item>859410 - CID DABRIL/PCA RAMOS AZEVEDO</item>
+        <item>859421 - CID PIRITUBA/PCA RAMOS AZEVEDO</item>
+        <item>859441 - COHAB PEDRA VERDE/PCA RAMOS AZ</item>
+        <item>860010 - TERM PIRITUBA/LGO PAISSANDU</item>
+        <item>860022 - TERM PIRITUBA/LGO DO PAISSANDU</item>
+        <item>862210 - MORRO DOCE/PCA RAMOS DE AZEVED</item>
+        <item>867710 - JD LIBANO/PCA RAMOS DE AZEVEDO</item>
+        <item>868610 - MANGALOT/PCA RAMOS AZEVEDO</item>
+        <item>868621 - MANGALOT/TERMINAL PIRITUBA</item>
+        <item>917H10 - MERCADO PIRITUBA/VLA MARIANA</item>
+        <item>930110 - TERM CASA VERDE/PAISSANDU</item>
+        <item>938C10 - COHAB TAIPAS/TERM PRINC ISABEL</item>
+        <item>938C21 - COHAB TAIPAS/TERMINAL LAPA</item>
+        <item>950010 - TERM CACHOEIRINHA/PAISSANDU</item>
+        <item>950110 - TERM  CACHOEIRINHA/PAISSANDU</item>
+        <item>957T10 - COHAB TAIPAS/ITAIM BIBI</item>
+        <item>965310 - PEDRA BRANCA/LGO DO PAISSANDU</item>
+        <item>975A10 - VILA BRASILANDIA/METRO ANA ROS</item>
+        <item>978J10 - VOITH/PCA PRINC ISABEL</item>
+        <item>978L10 - TERM CACHOEIRNHA/TERM P ISABEL</item>
+        <item>N10111 - TERM LAPA/TERM PQ D PEDRO II</item>
+        <item>N10211 - TERM LAPA/TERM PQ D PEDRO II</item>
+        <item>N10311 - TERM PIRITUBA/TERM LAPA</item>
+        <item>N10411 - TERM PIRITUBA/TERM LAPA</item>
+        <item>N10611 - T PQ D PEDRO /MET BARRA FUNDA</item>
+        <item>OPAESE - PAESE ONIBUS</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>106A10 - METRO SANTANA / ITAIM BIBI</item>
+        <item>107T10 - CID UNIVERSIT/ METRO TUCURUVI</item>
+        <item>115610 - VILA SABRINA/PC DO CORREIO</item>
+        <item>118C10 - JD PERY ALTO/METRO ST CECILIA</item>
+        <item>119C10 - VILA SABRINA/TERM PRINC ISABEL</item>
+        <item>172110 - VILA EDE/METRO CARANDIRU</item>
+        <item>172610 - VILA ZILDA/METRO SANTANA</item>
+        <item>172N10 - SHOP CENTER NORTE/METRO BELEM</item>
+        <item>173210 - VILA SABRINA/METRO SANTA CECIL</item>
+        <item>174M10 - JD BRASIL/MUSEU IPIRANGA</item>
+        <item>175P10 - EDU CHAVES/ANA ROSA</item>
+        <item>175T10 - METRO SANTANA/METRO JABAQUARA</item>
+        <item>177210 - JD FILHOS DA TERRA/METRO TUCUR</item>
+        <item>177Y10 - CASA VERDE/PINHEIROS</item>
+        <item>178322 - JARDIM LABITARY/METRO SANTANA</item>
+        <item>178A10 - IMIRIM/LAPA</item>
+        <item>178T10 - METRO SANTANA/CEASA</item>
+        <item>201010 - JD BRASIL/METRO TIETE</item>
+        <item>203210 - PQ EDU CHAVES/METRO CARANDIRU</item>
+        <item>208M10 - METRO SANTANA/TERM PINHEIROS</item>
+        <item>209P10 - CACHOEIRINHA/TERM PINHEIROS</item>
+        <item>210410 - METRO SANTANA/TERM PQ D PEDRO </item>
+        <item>210510 - JD FILHOS DA TERRA/LGO DA CONC</item>
+        <item>212310 - VILA MEDEIROS/METRO LIBERDADE</item>
+        <item>212710 - JD BRASIL/METRO LIBERDADE</item>
+        <item>216110 - PQ EDU CHAVES/PCA DO CORREIO</item>
+        <item>217510 - JD GUANCA/PCA DA SE</item>
+        <item>218210 - JD BRASIL/PCA DO CORREIO</item>
+        <item>271A10 - TERM PENHA/METRO SANTANA</item>
+        <item>271A51 - CANGAIBA/METRO SANTANA</item>
+        <item>271C10 - PQ VILA MARIA/PCA DA REPUBLICA</item>
+        <item>271F10 - METRO BELEM/SHOP CENTER NORTE</item>
+        <item>272N10 - PQ NOVO MUNDO/METRO BRAS</item>
+        <item>274010 - PEDRA BRANCA/METRO SANTANA</item>
+        <item>278A10 - PENHA/CEASA</item>
+        <item>351F10 - JACANA/TERM CARRAO</item>
+        <item>701A10 - PQ EDU CHAVES/METRO V MADALENA</item>
+        <item>701U10 - JACANA/BUTANTA USP</item>
+        <item>879A10 - TERM BARRA FUNDA/ANHEMBI</item>
+        <item>930010 - TERM.CASA VERDE-PQ.D.PEDRO II</item>
+        <item>935410 - N SRA FATIMA/TERM CORREIO</item>
+        <item>971C10 - COHAB/METRO SANTANA</item>
+        <item>971P10 - VILA PENTEADO/METRO SANTANA</item>
+        <item>971R10 - ESTACAO JARAGUA/METRO SANTANA</item>
+        <item>971R21 - JD DAMASCENO/METRO SANTANA</item>
+        <item>971R42 - CDHU VOITH/METRO SANTANA</item>
+        <item>971R51 - CHICA LUISA/METRO SANTANA</item>
+        <item>971X10 - TERM CACHOEIRINHA/METRO SANTAN</item>
+        <item>CT0101 - CIRCULAR TURISMO</item>
+        <item>N20211 - MET SANTANA/TERM PINHEIROS</item>
+        <item>N20511 - TERM CACHOEIRINHA/TERM PINHEIR</item>
+        <item>117710 - TERM.A.E.CARVALHO-EST.LUZ</item>
+        <item>117731 - TERM A E CARVALHO/EST DA LUZ</item>
+        <item>117751 - T A E CARVALHO/T AMARAL GURGEL</item>
+        <item>117810 - SAO MIGUEL-PCA DO CORREIO</item>
+        <item>117831 - SAO MIGUEL/PÇA DO CORREIO</item>
+        <item>117832 - ABEL TAVARES/PÇA DO CORREIO</item>
+        <item>117833 - PÇA DO CORREIO/SAO MIGUEL</item>
+        <item>117842 - CJ.HAB.VILA SILVIA-PCA.CORREIO</item>
+        <item>202210 - JD DOS IPES/TERM A E CARVALHO</item>
+        <item>205910 - SAO MIGUEL-GUAIANAZES</item>
+        <item>208E10 - TERM A E CARV/TERM PQ D PEDRO</item>
+        <item>208V10 - TERM A E CARVALHO-PÇA DA SE</item>
+        <item>233A10 - JD HELENA-CERET</item>
+        <item>252310 - VILA PROGRESSO-T PRINC ISABEL</item>
+        <item>253F10 - TERM.A.E.CARVALHO-T.SAO MATEUS</item>
+        <item>255110 - TERM.A.E.CARVALHO-TERM.D.PEDRO</item>
+        <item>255210 - VILA MARA-TERM.D.PEDRO II</item>
+        <item>255221 - Vila Jacui / Term. Pq. D Pedro</item>
+        <item>255241 - JD S MARTINHO/T PQ D PEDRO II</item>
+        <item>258210 - VILA NOVA CURUÇA/TER P D PEDRO</item>
+        <item>258221 - VILA ROBERTINA/PQ D PEDRO II</item>
+        <item>258310 - VILA CURUCA/TERM P D PEDRO</item>
+        <item>276210 - ERMELINO MATARAZZO-MET.TATUAPE</item>
+        <item>276710 - CID PEDR J NUNES-METRO TATUAPE</item>
+        <item>354M10 - TERM SAO MIGUEL/TERM SAO MATEU</item>
+        <item>400110 - ITAQUERA/TERM VILA CARRAO</item>
+        <item>421010 - T CID TIRADENTES/T PQ D PEDRO</item>
+        <item>431010 - E.T.ITAQUERA/TERM PQ D PEDRO  </item>
+        <item>431021 - ARTUR ALVIM/PARQUE DOM PEDRO</item>
+        <item>N30111 - TERM A E CARVALHO/T P D PEDRO </item>
+        <item>N30211 - T A E CARVALHO/T PQ D PEDRO II</item>
+        <item>N30311 - T A E CARVALHO/TERM ARICANDUVA</item>
+        <item>N30511 - TERM SAO MIGUEL/CPTM GUAIANAZE</item>
+        <item>N30811 - METRO ITAQUERA/TERM PQ D PEDRO</item>
+        <item>N33111 - TERM A E CARVALHO/OLIVEIRINHA</item>
+        <item>N33411 - T A E CARVALHO/CPTM GUAIANAZES</item>
+        <item>N34311 - T A E CARVALHO/METRO ITAQUERA</item>
+        <item>PAESE3 - PAESE AREA 3</item>
+        <item>207610 - JD DAS OLIVEIRAS/TERM PENHA</item>
+        <item>262610 - JD NAZARE/ TERM P D PEDRO</item>
+        <item>266610 - JD CAMARGO VELHO/TER P D PEDRO</item>
+        <item>266621 - JD CAMARGO VELH/T P D PEDRO II</item>
+        <item>267810 - OLIVEIRINHA/TERM P D PEDRO</item>
+        <item>273N10 - CID KEMEL II/MTR V MATILDE</item>
+        <item>276910 - JD ROMANO/METRO TATUAPE</item>
+        <item>301510 - JD ROMANO/JARDIM DAS OLIVEIRAS</item>
+        <item>307C10 - CONJ ENCOSTA NORTE/MT ARTUR AL</item>
+        <item>330110 - TERM SAO MIGUEL/TERM PQ D PEDR</item>
+        <item>345910 - ITAIM PAULISTA/TERM P D PEDRO</item>
+        <item>345921 - CEM DA SAUDADE/TERM P D PEDRO</item>
+        <item>345923 - METRO BRESSER/ITAIM PAULISTA</item>
+        <item>345924 - ITAIM PAULISTA/T.PQ D.PEDROII</item>
+        <item>346210 - VILA SANTANA/T PQ D PEDRO II</item>
+        <item>352A10 - JD.HELENA-TERM.SAO MATEUS</item>
+        <item>431410 - INACIO MONTEIRO/T PQ D PEDRO </item>
+        <item>N30611 - TERM SAO MIGUEL/METRO ITAQUERA</item>
+        <item>N33111 - TERM A E CARVALHO/OLIVEIRINHA</item>
+        <item>N33611 - T SAO MIGUEL/JD CARMARGO VELHO</item>
+        <item>302410 - VLA INDUSTRIAL/TER VL PRUDENTE</item>
+        <item>311C10 - PQUE S LUCAS/BOM RETIRO</item>
+        <item>314110 - TERM SAO MATEUS/TERM P D PEDRO</item>
+        <item>314J10 - STA MADALENA/METRO LIBERDADE</item>
+        <item>314V10 - VILA EMA/METRO LIBERDADE</item>
+        <item>339010 - TERM S MATEUS/TERM P D PEDRO</item>
+        <item>374610 - JD IMPERADOR/METRO BELEM</item>
+        <item>374631 - JD IMPERADOR/METRO BELEM</item>
+        <item>411510 - SHOP PLAZA SUL/PÇ REPUBLICA</item>
+        <item>422110 - JD PLANALTO/TERM P D PEDRO</item>
+        <item>422210 - PQ STA MADALENA/PÇA J MENDES</item>
+        <item>425E10 - JD. ESTER/TERM. SAPOPEMBA</item>
+        <item>428610 - VILA INDUSTRIAL/PÇA DO CORREIO</item>
+        <item>428810 - VILA INDUSTRIAL/T P D PEDRO II</item>
+        <item>449110 - ZOOLOGICO/TERM P D PEDRO</item>
+        <item>472710 - JD CLIMAX/METRO PÇ ARVORE</item>
+        <item>473210 - VILA LIVIERO/METRO SAUDE</item>
+        <item>473231 - VILA LIVIERO/METRO SAUDE</item>
+        <item>474210 - JD CLIMAX/METRO SAO JUDAS</item>
+        <item>475M10 - JD DA SAUDE/T AMARAL GURGEL</item>
+        <item>475R10 - JD SAO SAVERIO/TERM P D PEDRO</item>
+        <item>476A10 - IPIRANGA/TERM STO AMARO</item>
+        <item>477A10 - SACOMA/CEASA</item>
+        <item>477P10 - IPIRANGA/RIO PEQUENO</item>
+        <item>478P10 - SACOMA/POMPEIA</item>
+        <item>502810 - CJ HAB HELIOP/MUSEU IPIRANGA</item>
+        <item>503010 - JD MARIA ESTELA/TERM SACOMA</item>
+        <item>503410 - VILA LIVIERO/TERM SACOMA</item>
+        <item>503810 - PQ. BRISTOL/TERM SACOMA</item>
+        <item>510310 - TERM. SACOMA/MOEMA</item>
+        <item>510510 - TERM. SACOMA/TERM.MERCADO</item>
+        <item>510710 - TERM SACOMA/TERM CORREIO</item>
+        <item>510810 - JD CELESTE/TERM PQ D PEDRO II</item>
+        <item>511010 - TERM SAO MATEUS/TERM MERCADO</item>
+        <item>511021 - SAO MATEUS/TERMINAL MERCADO</item>
+        <item>511023 - JD PLANALTO/TERM MERCADO</item>
+        <item>511024 - SAO MATEUS/VILA PRUDENTE</item>
+        <item>511025 - TERM SÃO MATEUS/VILA UNIAO</item>
+        <item>511041 - SAO MATEUS/METRO TAMANDUATEI</item>
+        <item>514110 - TERM. SAPOPEMBA/PCA DO CORREIO</item>
+        <item>514210 - TERM.SAPOPEMBA/T.PQ.D.PEDRO II</item>
+        <item>514310 - TERM.SAPOPEMBA/T.D.PEDRO II</item>
+        <item>514410 - TERM.SAPOPEMBA/T.PRINC.ISABEL</item>
+        <item>514510 - TERM.SAPOPEMBA/PCA.ALMEIDA JR.</item>
+        <item>514541 - CJ.TEOT VILELA/PCA ALMEIDA JR</item>
+        <item>519M10 - SAO MATEUS/MUSEU DO IPIRANGA</item>
+        <item>574J10 - METRO CONCEICAO/T VILA CARRAO</item>
+        <item>575C10 - VILA MATIAS/METRO CONCEICAO</item>
+        <item>874T10 - IPIRANGA/LAPA</item>
+        <item>N50111 - TERM S MATEUS/T PQ D PEDRO II</item>
+        <item>N50211 - TERM SACOMA/TERM PQ D PEDRO II</item>
+        <item>N50311 - TER SAO MATEUS/TERM PQ D PEDRO</item>
+        <item>N50411 - TERM SACOMA/TERM PQ D PEDRO II</item>
+        <item>N50511 - TERM SACOMA/TERM PINHEIROS</item>
+        <item>N50611 - TERM SACOMA/METRO VL MADALENA</item>
+        <item>N50711 - TERM SACOMA/METRO SANTANA</item>
+        <item>N53311 - TERM SACOMA/JARDIM PLANALTO</item>
+        <item>N53711 - METRO VL MARIANA/VILA PRUDENTE</item>
+        <item>PAESE5 - PAESE AREA 5</item>
+        <item>502J21 - ESTACAO AUTODROMO/VILA JOANIZA</item>
+        <item>509J10 - J SELMA VIA JOANIZA/T P ISABEL</item>
+        <item>509M10 - JD. MIRIAM/TERM. PRINC. ISABEL</item>
+        <item>510610 - LGO.SAO FRANCISCO/JD. SELMA</item>
+        <item>510621 - SHOPPING IBIRAPUERA/JD SELMA</item>
+        <item>510631 - METRO ANA ROSA/JD SELMA</item>
+        <item>512910 - JD. MIRIAM/CHAC. STA. MARIA</item>
+        <item>512941 - JD MIRIAM/SANTO AMARO</item>
+        <item>513110 - CIDADE ADEMAR/PCA. DA SE</item>
+        <item>516410 - V.STA.CATARINA/LGO.S.FRANCISCO</item>
+        <item>516N10 - JD MIRIAM/ITAIM BIBI</item>
+        <item>517510 - BALNEARIO S FRANCISCO/PCA DA S</item>
+        <item>517810 - JD MIRIAM/LGO S FRANCISCO</item>
+        <item>519410 - J S JORGE AT J APURA/L S FCISC</item>
+        <item>519421 - JD S JORGE ATÉ APURA/AEROPORTO</item>
+        <item>529010 - DIV DIADEMA/PCA JOAO MENDES</item>
+        <item>546L10 - JD. LUSO/TERMINAL STO AMARO</item>
+        <item>546L41 - JD. LUSO/COLEGIO STA. MARIA</item>
+        <item>561110 - ELDORADO/PCA JOAO MENDES</item>
+        <item>561410 - ELDORADO/PRACA JOAO MENDES</item>
+        <item>561421 - ELDORADO/PQ IBIRAPUERA</item>
+        <item>565210 - JD IV CENTENARIO/LGO S FRANCIS</item>
+        <item>565222 - JD IV CENTENARIO/PQ IBIRAPUERA</item>
+        <item>572J10 - Metro São Judas (Circular)</item>
+        <item>576M10 - V CLARA/PINHEIROS</item>
+        <item>577T10 - JD. MIRIAM/VL. GOMES</item>
+        <item>579110 - ELDORADO/METRO PARAISO</item>
+        <item>600010 - TERM PARELHEIROS/TERM SANTO AM</item>
+        <item>600410 - METRO CONCEICAO-BERRINI</item>
+        <item>607C10 - JD MIRIAM/SHOPP MORUMBI</item>
+        <item>633810 - JD. MIRIAM/TERM. PRINC. ISABEL</item>
+        <item>635810 - JD. LUSO/TERM. BANDEIRA</item>
+        <item>765C31 - JD. APURA/CAMPO LIMPO</item>
+        <item>N60311 - TERM PINHEIROS/METRO JABAQUARA</item>
+        <item>N60411 - MET JABAQUARA/T PQ D PEDRO II</item>
+        <item>476L10 - LAR ESCOLA S FRANCISC/CIRCULAR</item>
+        <item>605A10 - M JABAQUARA/CENTRO PARALIMPICO</item>
+        <item>531710 - CENTRO SESC-LGO.SAO FRANCISCO</item>
+        <item>536210 - Pq Res Cocaia - Pça da Sé</item>
+        <item>536221 - Grajaú - Pça da Sé</item>
+        <item>536222 - JARDIM ELIANA / PRACA DA SE</item>
+        <item>536223 - PQ RES COCAIA/BORBA GATO</item>
+        <item>536241 - Pq Res Cocaia - Detran</item>
+        <item>537010 - TERM VARGINHA/LGO S FRANCISCO</item>
+        <item>537021 - Detran</item>
+        <item>563010 - Jd Eliana - Brás</item>
+        <item>563021 - JD ELIANA/DETRAN</item>
+        <item>563210 - Vila São José - L S Francisco</item>
+        <item>563221 - Jd Iporanga - L São Francisco</item>
+        <item>563251 - Jd Alpino - Lgo São Francisco</item>
+        <item>600310 - TERM GRAJAU/TERM VARGINHA</item>
+        <item>607M10 - TERM GRAJAU/SHOP MORUMBI</item>
+        <item>609110 - VARGEM GRANDE/TERM STO AMARO</item>
+        <item>609121 - VARGEM GRANDE/TERM PARELHEIROS</item>
+        <item>609151 - COLONIA / TERM STO AMARO</item>
+        <item>637G10 - Grajaú - Butantã</item>
+        <item>637G51 - Jd Eliana - Grajaú</item>
+        <item>637J10 - Vila São José - Pinheiros</item>
+        <item>675G10 - Pq Res Cocaia - M Jabaquara</item>
+        <item>675G22 - COLG STA MARIA/PQ RESID COCAIA</item>
+        <item>675G41 - JD CASTRO ALVES/ MTO JABAQUARA</item>
+        <item>675R10 - Grajaú - M Jabaquara</item>
+        <item>675X10 - Grajaú - M Vl Mariana</item>
+        <item>691310 - TERM BANDEIRA/TERM VARGINHA</item>
+        <item>691321 - Itaim Bibi</item>
+        <item>695H10 - JD HERPLIN/METRO PC DA ARVORE</item>
+        <item>695X10 - TERM VARGINHA/METRO JABAQUARA</item>
+        <item>695X22 - TERM.VARG./SHOPPING INTERLAGOS</item>
+        <item>695Y10 - TERM PARELHEIROS/METRO PC ARVO</item>
+        <item>695Y21 - AUTODROMO/TERM.PARELHEIROS</item>
+        <item>695Y41 - TERM PARELHEIROS/COL STA MARIA</item>
+        <item>696010 - TERM VARGINHA/TERM STO AMARO</item>
+        <item>696021 - ETVITOR MANZINI/TERM VARGINHA</item>
+        <item>697010 - TERM GRAJAU/TERM STO AMARO</item>
+        <item>N60111 - TERM GRAJAU/TERM PQ D PEDRO II</item>
+        <item>N60211 - TERM GRAJAU/TERM SANTO AMARO</item>
+        <item>N63111 - TERM GRAJAU/TERM STO AMARO</item>
+        <item>N63211 - TERM GRAJAU/TERM STO AMARO</item>
+        <item>539110 - TERM JD ANGELA/PCA DA SE</item>
+        <item>539121 - TERM GUARAP - LGO S FRANCISCO</item>
+        <item>539122 - TERM JD ANGELA/MOEMA</item>
+        <item>601910 - T.GUARAPIRANGA/JD.GODOFREDO</item>
+        <item>609M10 - JD MARACA-PCA JULIO PRESTES</item>
+        <item>637A10 - TERM JD ANGELA/PINHEIROS</item>
+        <item>637A21 - VILA REMO/PINHEIROS</item>
+        <item>637A22 - TERM.JD.ANGELA/ITAIM BIBI</item>
+        <item>637A25 - PIRAPORINHA/PINHEIROS</item>
+        <item>637A26 - TERM GUARAPIRANGA/PINHEIROS</item>
+        <item>637R10 - JD ARACATI-ITAIM BIBI</item>
+        <item>675K10 - TERM JD ANGELA-METRO STA CRUZ</item>
+        <item>675K23 - VILA REMO/HOSPITAL DO SERVIDOR</item>
+        <item>675L10 - T.STO AMARO/M.SANTA CRUZ</item>
+        <item>677A10 - TERM JD ANGELA/METRO ANA ROSA</item>
+        <item>700410 - JD JACIRA/TERM GUIDO</item>
+        <item>702210 - JD CAIÇARA/TERM SANTO AMARO</item>
+        <item>707A10 - JD ANGELA/METRO PÇA DA ARVORE</item>
+        <item>707A23 - PIRAPORINHA/MOEMA</item>
+        <item>709A10 - E. T. AGUA ESPRAIADA/M. ANA RO</item>
+        <item>737A10 - TERM JD ANGELA - TERM ST AMARO</item>
+        <item>N70311 - TERM JD ANGELA/TERM STO AMARO</item>
+        <item>N70511 - TERM STO AMARO/TERM PINHEIROS</item>
+        <item>N73211 - T JD ANGELA/TERM ROD JA JACIRA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>600610 - SHOPPING INTERLAGOS/JD HERCULA</item>
+        <item>600710 - PQ STO ANTONIO/JD STO AMARO</item>
+        <item>601310 - JD NAKAMURA-TERM STO AMARO</item>
+        <item>601410 - JD JACIRA-TERM STO AMARO</item>
+        <item>637R10 - JD ARACATI-ITAIM BIBI</item>
+        <item>684010 - JD JACIRA-TERM CAPELINHA</item>
+        <item>700110 - VILA GILDA/TERM JD ANGELA</item>
+        <item>700410 - JD JACIRA/TERM GUIDO</item>
+        <item>701610 - METRO JABAQUARA/JARDIM ANGELA</item>
+        <item>701621 - VILA SANTA LUCIA/TER STO AMARO</item>
+        <item>702110 - JD MARACA/TERM JOAO DIAS</item>
+        <item>702210 - JD CAIÇARA/TERM SANTO AMARO</item>
+        <item>702310 - JD NAKAMURA/TERM SANTO AMARO</item>
+        <item>EVENTO - E V E N T O</item>
+        <item>N73211 - T JD ANGELA/TERM ROD JA JACIRA</item>
+        <item>N73311 - TERM JD ANGELA/VILA GILDA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>511110 - TERM.STO.AMARO-TERM.D.PEDRO II</item>
+        <item>511910 - TERM CAPELINHA-LG.S.FRANCISCO</item>
+        <item>511922 - TE JOAO DIAS/LGO SAO FRANCISCO</item>
+        <item>531810 - Chac.Santna-Pca.Se</item>
+        <item>531821 - Chacara Santana - Praca da Se</item>
+        <item>600110 - TERM.CAPELINHA-TERM.JOAO DIAS</item>
+        <item>604810 - JD.ANGELA-STO.AMARO</item>
+        <item>609F10 - Chac.Santana -Pca Princ.Isabel</item>
+        <item>609F21 - Chac.Santana-Pca.Isabel</item>
+        <item>640010 - TERM.JOAO DIAS-TERM.BANDEIRA</item>
+        <item>640310 - TERM.JOAO DIAS-BANDEIRA</item>
+        <item>645010 - TERM.CAPELINHA-TERM.BANDEIRA</item>
+        <item>645110 - TERM CAPELINHA - TERM BANDEIRA</item>
+        <item>645510 - TERM CAPELINHA - L S FRANCISCO</item>
+        <item>647C10 - TERM JOÃO DIAS - HOSP CLINICAS</item>
+        <item>648P10 - TERM CAPELINHA - PINHEIROS</item>
+        <item>650010 - TERM.STO.AMARO-TERM.BANDEIRA</item>
+        <item>650510 - TERM GUARAPIRANGA/TERM BANDEIR</item>
+        <item>675I10 - TERM JOAO DIAS - METRO S JUDAS</item>
+        <item>807A10 - T CAMPO LIMPO/TERM SANTO AMARO</item>
+        <item>809P10 - TERM CAMPO LIMPO/PINHEIROS</item>
+        <item>857P10 - TERM CAMPO LIMPO/METRO PARAISO</item>
+        <item>OPAESE - PAESE ONIBUS</item>
+        <item>625010 - JD JAQUELINE/TERM BANDEIRA</item>
+        <item>626210 - CEASA/TERM.BANDEIRA</item>
+        <item>702C10 - JD BONFIGLIOLI/BELEM</item>
+        <item>715M10 - JD MA LUIZA/LGO DA POLVORA</item>
+        <item>745810 - JD BOA VISTA/ESTACAO DA LUZ</item>
+        <item>748R10 - JD JOAO XXIII/METRO BARRA FUND</item>
+        <item>754510 - JD JOAO XXIII/PC RAMOS DE AZEV</item>
+        <item>754521 - BUTANTA - PÇA RAMOS</item>
+        <item>771P10 - JD JOAO XXIII/CENTER NORTE</item>
+        <item>775P10 - JD GUARAU/METRO ANA ROSA</item>
+        <item>778R10 - COH RAP TAVARES/TER PRINC ISAB</item>
+        <item>790310 - JD JOAO XXIII/EDUCANDARIO</item>
+        <item>807510 - TERM CAMPO LIMPO/METRO BUTANTA</item>
+        <item>807521 - TERM CAMPO LIMPO/METRO MORUMBI</item>
+        <item>809A10 - JD D ABRIL/PINHEIROS</item>
+        <item>809V10 - VILA GOMES/PAULISTA</item>
+        <item>861010 - JD PAULO VI/TERM BANDEIRA </item>
+        <item>870010 - T CAMPO LIMPO/PCA R D AZEVEDO </item>
+        <item>870021 - LGO DO TABOAO/P RAMOS DE AZEVE</item>
+        <item>870510 - SHOP CONTINENTAL/ANHANGABAU</item>
+        <item>870551 - PQ CONTINENTAL/PCA RAMOS</item>
+        <item>870710 - RIO PEQUENO/TERM PRINC ISABEL</item>
+        <item>870721 - RIO PEQUENO/BUTANTA</item>
+        <item>875C10 - LAPA/METRO STA CRUZ</item>
+        <item>909T01 - TERM PINHEIROS/TERM PQ D PEDRO</item>
+        <item>N80111 - T METRO BUTANTA/T P D PEDRO II</item>
+        <item>N80211 - TERM PINHEIROS/T PQ D PEDRO II</item>
+        <item>515410 - STO AMARO/EST DA LUZ</item>
+        <item>530010 - TERM STO AMARO/PQ DOM PEDRO</item>
+        <item>620010 - TERM STO AMARO/TERM BANDEIRA</item>
+        <item>629110 - SHOP MORUMBI/TERM BANDEIRA</item>
+        <item>637P10 - TERM.STO.AMARO-PINHEIROS</item>
+        <item>641410 - SOCORRO/TERM BANDEIRA</item>
+        <item>642210 - V CRUZEIRO/TERM BANDEIRA</item>
+        <item>675N10 - STO AMARO/METRO ANA ROSA</item>
+        <item>709G10 - TERM GUARAPIRANGA/ITAIM BIBI</item>
+        <item>709M10 - TERMIN STO AMARO/TERM PINHEIRO</item>
+        <item>709P10 - TERM GUIDO/PINHEIROS</item>
+        <item>724510 - MORUMBI SHOPPING/EST LUZ</item>
+        <item>724521 - E T AGUA ESPRAIADA/TERM STO AM</item>
+        <item>755010 - TERM STO AMARO/M SANTA CECILIA</item>
+        <item>N70111 - TERM STO AMARO/T PQ D PEDRO II</item>
+        <item>N70211 - TERM STO AMARO/T PQ D PEDRO II</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>CT0101 - CIRCULAR TURISMO</item>
+        <item>277010 - GUAIANAZES-METRO VILA MATILDE</item>
+        <item>306310 - GUAIANAZES-TERM SAO MATEUS</item>
+        <item>306341 - GUAIANAZES-TERM SAO MATEUS</item>
+        <item>368610 - JD.SAOPAULO-TERM.D.PEDRO II</item>
+        <item>368621 - JD SAO PAULO/METRO PATRIARCA</item>
+        <item>400210 - GUAIANAZES/TERM VILA CARRAO</item>
+        <item>407F10 - TERM SAO MATEUS/METRO BELEM</item>
+        <item>407K10 - TERM SAO MATEUS/METRO CARRAO</item>
+        <item>421010 - T CID TIRADENTES/T PQ D PEDRO</item>
+        <item>431110 - TER SAO MATEUS/T PQ D PEDRO II</item>
+        <item>431210 - JD MARILIA/TERM PQ D PEDRO II</item>
+        <item>431221 - JARDIM MARILIA/METRO BELEM</item>
+        <item>431310 - T CID TIRADENTES/T PQ D PEDRO </item>
+        <item>431410 - INACIO MONTEIRO/T PQ D PEDRO </item>
+        <item>431421 - INACIO MONTEIRO/TERM VL CARRAO</item>
+        <item>274P10 - PENHA/METRO VL MARIANA</item>
+        <item>390E10 - TERM PENHA/TERM PQ D PEDRO II</item>
+        <item>431510 - T VILA CARRAO/T PQ D PEDRO II </item>
+        <item>908T10 - TERM PQ D PEDRO II/BUTANTA</item>
+        <item>930P10 - TERM PQ D PEDRO II/PINHEIROS</item>
+        <item>N40111 - TERM VL CARRAO/T PQ D PEDRO II</item>
+        <item>N40411 - TERM SAO MATEUS/TERM PENHA</item>
+        <item>9910PR - TERM VARGINHA/CIDADE DUTRA</item>
+        <item>9911PR - TERM GRAJAU/CIDADE DUTRA</item>
+        <item>9912PR - TERM STO AMARO/CIDADE DUTRA</item>
+        <item>9913PR - TERM P D PEDRO/V CAMPO BELO</item>
+        <item>9914PR - TERM J ANGELA/V CAMPO BELO</item>
+        <item>9915PR - TERM CAPELINHA/V CAMPO BELO</item>
+        <item>9916PR - TERM BANDEIRA/V CAMPO BELO</item>
+        <item>9917PR - TERM SANTO AMARO/V GATUSA</item>
+        <item>9920PR - TER CAMPO LIMPO/V CAMPO BELO</item>
+        <item>9922PR - TERM BANDEIRA/V CAMPO BELO</item>
+        <item>9923PR - TERM JD ANGELA/TERM STO AMARO</item>
+        <item>9919PR - TERM J ANGELA/VIP GUARAPIRANGA</item>
+        <item>9932PR - TERM CIDADE TIRADENTES/VIP</item>
+        <item>9934PR - VIP TERM SANTO AMARO</item>
+        <item>9935PR - TERM SANTO AMARO - VIP</item>
+        <item>9921PR - TERM CAMPO LIMPO/TRANSPPASS</item>
+        <item>510510 - TERM. SACOMA/TERM.MERCADO</item>
+        <item>510511 - EXP TIRADENTES - RUA DO GRITO</item>
+        <item>510512 - EXP TIRADENTES - C A YPIRANGA</item>
+        <item>510513 - EXP TIRADENTES - ANA NERI</item>
+        <item>510514 - EXP TIRADENTES -METRO PEDRO II</item>
+        <item>510515 - EXP TIRADENTES - MERCADO</item>
+        <item>510516 - EXP TIRADENTES - GENERAL LECOR</item>
+        <item>510517 - EXP TIRADENTES - ALBERTO LION</item>
+        <item>510519 - TERM MERCADO/TERM DIANOPOLIS</item>
+        <item>9925PR - ITAQUERA/PQ DOM PEDRO II</item>
+        <item>9929PR - TERM ITAQUERA/PQ D PEDRO</item>
+        <item>9933PR - TERM JD ANGELA 2º/VIP</item>
+        <item>9927PR - TERM STO AMARO/TERM BANDEIRA</item>
+        <item>9928PR - TERM BANDEIRA/TERM STO AMARO</item>
+        <item>9936PR - TERM SANTO AMARAO / MOBI BRASI</item>
+        <item>9937PR - TERM PARELHEIROS/MOBIBRASIL</item>
+        <item>502910 - JD PATENTE/TERM SACOMA</item>
+        <item>510810 - JD CELESTE/TERM PQ D PEDRO II</item>
+        <item>N50711 - TERM SACOMA/METRO SANTANA</item>
+        <item>531710 - CENTRO SESC-LGO.SAO FRANCISCO</item>
+        <item>536223 - PQ RES COCAIA/BORBA GATO</item>
+        <item>537010 - TERM VARGINHA/LGO S FRANCISCO</item>
+        <item>563010 - Jd Eliana - Brás</item>
+        <item>600310 - TERM GRAJAU/TERM VARGINHA</item>
+        <item>607M10 - TERM GRAJAU/SHOP MORUMBI</item>
+        <item>637J10 - Vila São José - Pinheiros</item>
+        <item>675X10 - Grajaú - M Vl Mariana</item>
+        <item>691310 - TERM BANDEIRA/TERM VARGINHA</item>
+        <item>691321 - Itaim Bibi</item>
+        <item>695X10 - TERM VARGINHA/METRO JABAQUARA</item>
+        <item>695X22 - TERM.VARG./SHOPPING INTERLAGOS</item>
+        <item>695Y10 - TERM PARELHEIROS/METRO PC ARVO</item>
+        <item>696010 - TERM VARGINHA/TERM STO AMARO</item>
+        <item>696021 - ETVITOR MANZINI/TERM VARGINHA</item>
+        <item>697010 - TERM GRAJAU/TERM STO AMARO</item>
+        <item>101210 - JD MONTE BELO/TERM JD BRITANIA</item>
+        <item>101510 - CHAC MARIA TRINDADE/T JD BRITA</item>
+        <item>102110 - COHAB BRASILANDI/TERM PIRITUBA</item>
+        <item>103410 - MORRO GRANDE/CONEXAO VILA LORI</item>
+        <item>103610 - COHAB BRASILANDIA/CONEXAO VILA</item>
+        <item>119L10 - VILA SULINA/TERMINAL LAPA</item>
+        <item>139A10 - CONEXAO VILA LORIO/LAPA</item>
+        <item>801010 - PERUS/PQ RESIDENCIAL LAPA</item>
+        <item>801310 - MORRO DOCE/LAPA</item>
+        <item>801322 - Lapa</item>
+        <item>801341 - JD PAINEIRAS/TERM JD BRITANIA</item>
+        <item>801410 - MORRO DOCE/PERUS</item>
+        <item>801710 - CPTM VILA AURORA/TERM PIRITUBA</item>
+        <item>819410 - PERUS/CACHOEIRINHA</item>
+        <item>819910 - PIRITUBA/CVN CACHOEIRINHA</item>
+        <item>819A10 - VILA AURORA/JD PRIMAVERA</item>
+        <item>900410 - JD ELISA MARIA/TERM V N CACHOE</item>
+        <item>900510 - JD PRINCESA/TERM V N CACHOEIR</item>
+        <item>900541 - JD.VISTA ALEGRE/T.CACHOEIRINHA</item>
+        <item>900542 - SITIO D FRANCOS/T V N CACHOEIR</item>
+        <item>900610 - VILA PENTEADO/TERM V N CACHOEI</item>
+        <item>900810 - PQ TAIPAS/TERM V N CACHOEIR</item>
+        <item>900841 - ESTANCIA JARAGUA/TERM V N CACH</item>
+        <item>900910 - COHAB BRASILANDIA/TERM V N CAC</item>
+        <item>901110 - CITY JARAGUA/TERM V N CACHOEIR</item>
+        <item>901121 - ESTACAO JARAGUA/CITY JARAGUA</item>
+        <item>901510 - VILA ZATT/TERM PIRITUBA</item>
+        <item>901810 - VILA MIRANTE/TERM PIRITUBA</item>
+        <item>901910 - JD PAULISTA/TERM PIRITUBA</item>
+        <item>902010 - VILA MIRANTE/TERM PIRITUBA</item>
+        <item>902310 - PQUE DE TAIPAS/TERM PIRITUBA</item>
+        <item>903210 - JD DAMASCENO/LAPA</item>
+        <item>903221 - JD DAMASCENO/TERM CACHOEIRINHA</item>
+        <item>904710 - JD PAULISTANO/LAPA</item>
+        <item>909010 - PQ TIETE/TERM CASA VERDE</item>
+        <item>918110 - VILA TEREZINHA/LAPA</item>
+        <item>918810 - CAPELA DA LAGOA/LAPA</item>
+        <item>918842 - CAPELA DA LAGOA/TERM PIRITUBA</item>
+        <item>919110 - JD ELIS MARIA/BOM RETIRO</item>
+        <item>919121 - BARRA FUNDA/BOM RETIRO</item>
+        <item>938P10 - VILA PENTEADO/METRO B FUNDA</item>
+        <item>938V10 - JD VISTA ALEGRE/METRO BARRA FU</item>
+        <item>971710 - COHAB BRASILANDIA/SANTANA</item>
+        <item>978510 - TEREZINHA/BARRA FUNDA</item>
+        <item>978551 - JD CAROMBE/TTVN CACHOEIRINHA</item>
+        <item>978910 - JD DOS GUEDES/BARRA FUNDA</item>
+        <item>978T10 - JD GUARANI/METRO BARRA FUNDA</item>
+        <item>N13811 - TERM CACHOEIRINHA/JD PRINCESA</item>
+        <item>N13911 - TERM PIRITUBA/JD PAULISTANO</item>
+        <item>N14011 - TERM PIRITUBA/VILA MIRANTE</item>
+        <item>N14111 - TERM CACHOEIRINHA/JD CAROMBE</item>
+        <item>N14211 - TERM PIRITUBA/TERM CASA VERDE</item>
+        <item>PMETRO - PAESE METRO</item>
+        <item>RDOM10 - REDE DE DOMINGO</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>101710 - PERUS/VILA IORIO</item>
+        <item>102010 - PERUS/CONEXAO VILA IORIO</item>
+        <item>102410 - JD CAROMBE/CONEX PETRONIO PORT</item>
+        <item>102510 - JARDIM CAROMBÉ/LAPA</item>
+        <item>102610 - VILA IARA/CONEX PETRON PORTELA</item>
+        <item>179X10 - JD FONTALIS/BOM RETIRO</item>
+        <item>801510 - CEM.PERUS/TERM.PIRITUBA</item>
+        <item>801521 - CEMITE DE PERUS/EST DE PERUS</item>
+        <item>801610 - JD.RINCAO/TERM.PIRITUBA</item>
+        <item>848L10 - RECANTO DOS HUMILDES/TERM PRIN</item>
+        <item>978410 - JD DOS FRANCOS/BARRA FUNDA</item>
+        <item>N13711 - TERM PIRITUBA/PERUS</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>101610 - CEMITERIO DO HORTO/CENTER NORT</item>
+        <item>101810 - VILA ROSA/SANTANA</item>
+        <item>118Y10 - LAUZANE PAULISTA/LAPA</item>
+        <item>121G10 - PQ NOVO MUNDO/JACANA</item>
+        <item>128Y10 - JD PERY ALTO/LAPA</item>
+        <item>170110 - JOVA RURAL / ANEHEMBI</item>
+        <item>170121 - JOVA RURAL/METRO TUCURUVI</item>
+        <item>170122 - JOVA RURAL/METRO TUCURUVI</item>
+        <item>170510 - JD SAO JOAO /METRO TUCURUVI</item>
+        <item>170551 - CEM PQ PINHEIROS/METRO TUCURUV</item>
+        <item>170910 - JD JOAMAR/METRO TUCURUVI</item>
+        <item>170921 - JD JOAMAR/METRO SANTANA</item>
+        <item>172010 - JD GUANCA/CANTAREIRA</item>
+        <item>172021 - VILA SABRINA/METRO TUCURUVI</item>
+        <item>172210 - JD MARINA/TUCURUVI</item>
+        <item>172J10 - JD BRASIL/TATUAPE</item>
+        <item>172P10 - VILA ZILDA/METRO BELEM</item>
+        <item>172R10 - JD BRASIL/METRO BELEM</item>
+        <item>172X10 - PQ NOVO MUNDO/TATUAPE</item>
+        <item>172Y10 - VILA CONSTANÇA/METRO BELEM</item>
+        <item>173010 - CENTER NORTE/SANTANA</item>
+        <item>173810 - VILA CONSTANCIA/METRO CARANDIR</item>
+        <item>177510 - VILA ALBERTINA/CENTER NORTE</item>
+        <item>178010 - JD HEBRON/TERM PARADA INGLESA</item>
+        <item>178510 - VILA AURORA/METRO SANTANA</item>
+        <item>178610 - VILA ALBERTINA/METRO SANTANA</item>
+        <item>178710 - VILA MARIETA/METRO SANTANA</item>
+        <item>178Y10 - VILA AMELIA/METRO JD SAO PAULO</item>
+        <item>178Y21 - CJ DOS BANCARIOS/M JD SAO PAUL</item>
+        <item>900210 - JD PERY ALTO/TERM V N CACHOEIR</item>
+        <item>N23211 - METRO TUCURUVI/PQ NOVO MUNDO</item>
+        <item>N23411 - METRO TUCURUVI/LARGO DO PERI</item>
+        <item>N24111 - METRO SANTANA/VILA ALBERTINA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>120610 - PQ VILA MARIA/CORREIO</item>
+        <item>170210 - JOVA RURAL/TIETE</item>
+        <item>172K10 - JD TREMEMBE/TATUAPE</item>
+        <item>172U10 - CEM P PINHEIROS/MOOCA</item>
+        <item>179X10 - JD FONTALIS/BOM RETIRO</item>
+        <item>201310 - JD ROBRU/EST ITAIM PAULISTA</item>
+        <item>201410 - JD PERI ALTO/METRO BARRA FUNDA</item>
+        <item>N23111 - TERM CACHOEIRINHA/PEDRA BRANCA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>118010 - VILA DR EIRAS/P PRINC ISABEL</item>
+        <item>200410 - JD MIRIAM/GUAIANAZES</item>
+        <item>200510 - JD ROMANO/SAO MIGUEL</item>
+        <item>200610 - CIDADE KEMEL I /ITAIM PAULISTA</item>
+        <item>200710 - CIDADE KEMEL II/SAO MIGUEL</item>
+        <item>200810 - JD N SRA CAMINHO/ESTACAO ITAIM</item>
+        <item>200910 - JD ROBRU/GUAIANAZES</item>
+        <item>202110 - JD BANDEIRANTES/EST GUAIANAZES</item>
+        <item>220110 - DIVISA DE FERRAZ/GUAIANAZES</item>
+        <item>220210 - HOSP ITAIM/GUAIAZAZES</item>
+        <item>270210 - VILA AMERICANA/METRO A ALVIN</item>
+        <item>270221 - JD PEDRO J NUNES/METRO A ALVIM</item>
+        <item>270310 - JD ETELVINA/METRO ITAQUERA</item>
+        <item>270321 - Metro Itaquera</item>
+        <item>270322 - JD GIANETTI/METRO ITAQUERA</item>
+        <item>270410 - JD ROBRU/METRO ITAQUERA</item>
+        <item>270510 - JD FANGANIELO/METRO ITAQUERA</item>
+        <item>270710 - CHABILANDIA/METRO ITAQUERA</item>
+        <item>270731 - CHABILANDIA/METRO ITQUERA</item>
+        <item>270810 - JD LAJEADO/METRO ITAQUERA</item>
+        <item>300210 - JD MABEL/SAO MIGUEL</item>
+        <item>300610 - JD FANGANIELO/ES CPTM GUAIANAZ</item>
+        <item>300810 - JD MIRIAM/CPTM ITAIM PAULISTA</item>
+        <item>300910 - ITAIM PAULISTA/SAO MIGUEL</item>
+        <item>301010 - CEM DA SAUDADE/TERM A E CARVAL</item>
+        <item>302610 - VILA IOLANDA II/EST GUAIANZ CP</item>
+        <item>303310 - GUAIANAZES/SAO MATEUS</item>
+        <item>306410 - CIDADE TIRADENTES/EST GUAIANAZ</item>
+        <item>306441 - S ETELVINA II B6/T CID TIRADEN</item>
+        <item>375410 - INACIO MONTEIRO/METRO ITAQUERA</item>
+        <item>375610 - BARRO BRANCO/METRO ITAQUERA</item>
+        <item>376810 - VILA YOLANDA/METRO ITAQUERA</item>
+        <item>379510 - JD SAO CARLOS/METRO ITAQUERA</item>
+        <item>401910 - METRO ITAQUERA</item>
+        <item>405110 - JD SAO PAULO/CPTM GUAIANAZES</item>
+        <item>405210 - CPTM GUAIANAZES/METRO ITAQUERA</item>
+        <item>405310 - GUAIANAZES/CPTM JOSE BONIFACIO</item>
+        <item>405510 - CPTM GUAIANAZES/VILA SOLANGE</item>
+        <item>405610 - TERM S MATEUS/PQ BOA ESPERANÇA</item>
+        <item>407T10 - JD REDIL/METRO ITAQUERA</item>
+        <item>N33311 - TERM SAO MIGUEL/CIDADE KEMEL</item>
+        <item>RDOM10 - REDE DE DOMINGO</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>220210 - HOSP ITAIM/GUAIAZAZES</item>
+        <item>259010 - UNIAO DE VILA NOVA/PQ D PEDRO </item>
+        <item>316110 - JD COLORADO/TERM P D PEDRO II</item>
+        <item>476G10 - JARDIM ELBA/IBIRAPUERA</item>
+        <item>476G41 - VILA INDUSTRIAL/METRO ANA ROSA</item>
+        <item>513C10 - VILA CALIFORNIA/E. T. ITAQUERA</item>
+        <item>513C31 - VL CALIFORNIA/E. T. ITAQUERA</item>
+        <item>573A10 - METRO BRESSER/VILA ALPINA</item>
+        <item>574C10 - TERM.SAO MATEUS/DIV.S.CAETANO</item>
+        <item>574R10 - TERM.SAPOPEMBA/METRO BELEM</item>
+        <item>575A10 - DIV.S.CAETANO/SHOP MET.TATUAPE</item>
+        <item>PACPTM - PAESE CPTM</item>
+        <item>201610 - JD DAS OLIVEIRAS/SAO MIGUEL</item>
+        <item>201710 - JD ROBRU/SAO MIGUEL</item>
+        <item>201810 - JD CAMPOS/SAO MIGUEL CIRCULAR</item>
+        <item>201910 - PQ PAINEIRAS/SHOPPING PENHA</item>
+        <item>220310 - BURGO PAULISTA/SHOP PENHA</item>
+        <item>272610 - LIMOEIRO/METRO PENHA</item>
+        <item>273010 - VILA JACUI/METRO A ALVIN</item>
+        <item>273110 - VILA PROGRESSO/METRO ITAQUERA</item>
+        <item>273410 - JD CAMPOS/METRO ITAQUERA</item>
+        <item>305110 - ERM MATARAZZO/TERM A E CARVALH</item>
+        <item>408510 - COHAB FAZE DO CARMO/M ITAQUERA</item>
+        <item>409310 - CIDADE TIRADENTES/METRO PENHA</item>
+        <item>N34111 - TERM SAO MIGUEL/VILA CISPER</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>301310 - TERM CIDADE TIRADEN/METALURGIC</item>
+        <item>301910 - TERM CIDADE TIRADENTES/VILA PA</item>
+        <item>302010 - CONJ JOSE BONIFACIO/SHOP ARICA</item>
+        <item>302510 - JD WILMA FLOR/EST GUAIANAZES C</item>
+        <item>302710 - VILA MINERVA/SHOP ARICANDUVA</item>
+        <item>303110 - J ALTO PAULISTAN/METRO ITAQUER</item>
+        <item>305410 - JD PALANQUE/JD TIETE</item>
+        <item>322110 - PQ SAVOY CITY/TERM P D PEDRO </item>
+        <item>342C10 - JD MARILIA/PENHA</item>
+        <item>342N10 - COHAB JUSC.KUBISC/PENHA</item>
+        <item>371210 - JD SAO JOAO/METRO ITAQUERA</item>
+        <item>371251 - VL COSMOPOLITA/METRO ITAQUERA</item>
+        <item>371810 - METRO A ALVIN/NOVA AMERICA</item>
+        <item>372110 - JD MARILIA/METRO A ALVIM</item>
+        <item>372141 - JD MARILIA/METRO ARTHUR ALVIM</item>
+        <item>372210 - COHAB J BONIFACIO/METRO PENHA</item>
+        <item>372810 - METRO A ALVIN/PQ SAVOY CITY</item>
+        <item>372841 - METR ARTUR ALVIM/PQ NOVA SAVOY</item>
+        <item>372910 - SHOP ARICANDUVA/METRO CARRAO</item>
+        <item>372F10 - FAC SAO JUDAS TADEU/METR BRESS</item>
+        <item>373210 - COHAB JOSE BONIFACIO/METRO ITA</item>
+        <item>373510 - METRO A ALVIN/JD SAO JOAO CIRC</item>
+        <item>373521 - METRO ARTUR ALVIM/JD S JOAO</item>
+        <item>373541 - JD SÃO JOSE/METRO ARTUR ALVIM</item>
+        <item>373610 - JD N S P CARMO/METRO A ALVIM</item>
+        <item>373810 - COHAB JUSCELINO/METRO ITAQUERA</item>
+        <item>373910 - RECANTO VERDE SOL/METRO ITAQUE</item>
+        <item>373L10 - JD LIMOEIRO/METRO ITAQUERA</item>
+        <item>374110 - EST DOM BOSCO/METRO ITAQUERA</item>
+        <item>374210 - JD DAS LARANJEIRAS/M ITAQUERA</item>
+        <item>374310 - SAO MATEUS/METRO ITAQUERA</item>
+        <item>375110 - COHAB PRESTES MAIA/METR ITAQUE</item>
+        <item>376110 - 3A DIVISAO/METRO CARRAO</item>
+        <item>376610 - COHAB II/METRO ITAQUERA</item>
+        <item>377310 - RES SANTA BARBARA/METRO CARRAO</item>
+        <item>378510 - COHAB BARRO BRANCO/METRO ITAQU</item>
+        <item>378710 - CID.TIRADENTES/METRO ITAQUERA</item>
+        <item>378910 - CIDADE TIRADENTES/METRO ITAQUE</item>
+        <item>379610 - GLEBA DO PESSEGO/METRO ITAQUER</item>
+        <item>402010 - E T ITAQUERA/JD NOVO HORIZONTE</item>
+        <item>402110 - METRO ITAQUERA/VILA CHUCA</item>
+        <item>408610 - CID TIRADENTES/TERM CID TIRADE</item>
+        <item>409210 - SETOR IIB/TERM CID TIRADENTES</item>
+        <item>N43811 - M ITAQUERA/HOSP STA MARCELINA</item>
+        <item>N44011 - TERM V CARRAO/SAVOY DALILA</item>
+        <item>270910 - VILA UNIAO/METRO PATRIARCA</item>
+        <item>270931 - VILA UNIAO/METRO PATRIARCA</item>
+        <item>271010 - METRO PATRIARCA/BURGO PAULISTA</item>
+        <item>271031 - METRO PATRIARCA/VL.S FRANCISCO</item>
+        <item>271110 - PONTE RASA/METRO PATRIARCA</item>
+        <item>271210 - JD SAO NICOLAU/METRO A ALVIN</item>
+        <item>271410 - VL RUI BARBOSA/METRO V MATILDE</item>
+        <item>271510 - VILA SILVIA/METRO PATRIARCA</item>
+        <item>271610 - CHAC CRUZ DO SUL/METRO PENHA</item>
+        <item>271710 - METRO GUILHERMINA/CANGAIBA</item>
+        <item>271810 - VILA SILVIA/METRO PENHA</item>
+        <item>271910 - ERMELINO MATARAZZO/METR V MATI</item>
+        <item>272010 - JD BELEM/METRO GUILHERMINA</item>
+        <item>272031 - METRO GUILHERMINA/JD BELEM</item>
+        <item>272110 - JD NAZARE/METRO ITAQUERA</item>
+        <item>272210 - JD VERONIA/METR GUILHERMINA</item>
+        <item>272231 - JD VERONIA/METRO GUILHERMINA</item>
+        <item>272310 - UNIAO DE V NOVA/METRO ITAQUERA</item>
+        <item>272410 - METRO A ALVIN/CONJ ARAUCARIA</item>
+        <item>272510 - JD SAO CARLOS/METRO A ALVIN</item>
+        <item>272710 - CONJ A E CARV/METRO A ALVIN</item>
+        <item>272810 - JD CASTELO/METRO PENHA</item>
+        <item>273210 - VILA REGINA/METRO A ALVIN</item>
+        <item>273310 - PQ GUARANI/METRO ITAQUERA CIRC</item>
+        <item>273510 - JD KERALUX/METRO PENHA</item>
+        <item>273521 - JD SAO FRANCISCO/METRO PENHA</item>
+        <item>302310 - SHOP ARICANDUVA/PQ SAO RAFAEL</item>
+        <item>302910 - JD DAS ROSAS/METRO TATUAPE</item>
+        <item>304610 - VILA GUARANI/TATUAPE</item>
+        <item>305310 - JD ITAPOLIS/METRO BELEM</item>
+        <item>306910 - J RECANTO VERDE SOL/T S MATEUS</item>
+        <item>313410 - SHOP ARICANDUVA/METRO TAMANDUA</item>
+        <item>372510 - METRO V MATILDE/VILA DALILA</item>
+        <item>372541 - METRO VL MATILDE/VL ARICANDUVA</item>
+        <item>372910 - SHOP ARICANDUVA/METRO CARRAO</item>
+        <item>372U10 - VILA SANTA ISABEL/METRO TATUAP</item>
+        <item>373110 - SHOP ARICANDUVA/METRO V MATILD</item>
+        <item>373410 - CIDADE LIDER/METRO A ALVIM</item>
+        <item>373710 - SHOP ARICANDUVA/METR GUILHERM </item>
+        <item>373721 - JD.SANTA MARIA/M.GUILHERMINA E</item>
+        <item>373731 - M.GUILHERMINA/M.PATRIARCA CIRC</item>
+        <item>374510 - JD IMPERADOR/TATUAPE</item>
+        <item>374V10 - VILA VERDE / METRO ITAQUERA</item>
+        <item>376210 - JD IVA/METRO TATUAPE</item>
+        <item>376310 - TERM VL CARRAO/METRO TATUAPE</item>
+        <item>377810 - JD STA TEREZINHA/METRO CARRAO</item>
+        <item>379110 - SHOP ARICANDUVA/METRO A ALVIM</item>
+        <item>472410 - METRO PATRIARCA/VILA NHOCUNE</item>
+        <item>N33211 - TERM A E CARVALHO/VILA CISPER</item>
+        <item>N34411 - TERM PENHA /VILA CISPER</item>
+        <item>N43311 - TERM V CARRAO/METRO BELEM</item>
+        <item>309810 - JD SAO FRANCISCO/SHOP ARICANDU</item>
+        <item>309910 - NOVE DE JULHO/JD DA CONQUISTA</item>
+        <item>311210 - VILA INDUSTRIAL/METRO BELEM</item>
+        <item>364A10 - IPIRANGA/SHOP ARICANDUVA</item>
+        <item>373T10 - JD ITAPOLIS/METRO BRESSER</item>
+        <item>402510 - VILA CALIFORNIA/METRO TATUAPE</item>
+        <item>402710 - HOSP SAO MATEUS/JD SANTO ANDRE</item>
+        <item>402741 - PQ DAS FLORES/SAO MATEUS</item>
+        <item>402810 - HOSP SAO MATEUS/PQ DAS FLORES</item>
+        <item>402910 - SAO MATEUS/VLA PRUDENTE</item>
+        <item>403010 - FAZENDA DA JUTA/SHOP ARICANDUV</item>
+        <item>403110 - PQ STA MADALENA/CENTRAL PLAZ S</item>
+        <item>403210 - VILA DAS MERCES/OBJETIVO UNIP</item>
+        <item>403310 - JD GUAIRACA/NOVA CONQUISTA</item>
+        <item>414P10 - VILA INDUSTRIAL/PENHA</item>
+        <item>471610 - SACOMA/METRO SANTA CRUZ</item>
+        <item>472610 - MOOCA / METRO TATUAPE</item>
+        <item>472910 - PQ BANCARIO/METRO BELEM</item>
+        <item>473410 - VILA MORAES/METRO SAUDE</item>
+        <item>473421 - VILA MORAES/METRO SAUDE</item>
+        <item>473510 - SAO MATEUS/METRO CARRAO</item>
+        <item>502010 - HOSP HELIOP/TERM SACOMA</item>
+        <item>502510 - JD GUAIRACA/METRO TAMANDUATEI</item>
+        <item>503110 - VILA ARAPUA/TERM SACOMA</item>
+        <item>503121 - VILA CONDE DO PINHAL/TERM SACO</item>
+        <item>503210 - VILA ARAPUA/TERM SACOMA</item>
+        <item>503510 - VILA ARAPUA/TERM SACOMA</item>
+        <item>514T10 - TERM SACOMA/JD ITAPOLIS</item>
+        <item>524L10 - PQ SAO LUCAS/TATUAPE</item>
+        <item>524M10 - MASC.MORAES/SHOP.ARICANDUVA</item>
+        <item>573H10 - HOSP.SAPOPEMBA/METRO BRESSER</item>
+        <item>573T10 - TERM.SAPOPEMBA/METRO CARRAO</item>
+        <item>573T31 - TERM SAPOPEMBA/TEOTONIO VILELA</item>
+        <item>574W10 - JD. WALKIRIA/METRO BELEM</item>
+        <item>N53411 - TERM SACOMA/VILA ARAPUA</item>
+        <item>N53611 - TERM SACOMA/JARDIM ITAPOLIS</item>
+        <item>N53911 - TERM SACOMA/HOSP HELIOPOLIS</item>
+        <item>501010 - CIDADE VARGAS/SANTO AMARO</item>
+        <item>501110 - ELDORADO/SANTO AMARO</item>
+        <item>501210 - JD GUACURI/JABAQUARA</item>
+        <item>501310 - JD LUSO/SANTO AMARO</item>
+        <item>501331 - JD MIRIAM/SANTO AMARO</item>
+        <item>501510 - JD SAO JORGE/JABAQUARA</item>
+        <item>501810 - SHOP. INTERLAGOS - JABAQUARA</item>
+        <item>501831 - SHOPPING INTERLAGOS/JABAQUARA</item>
+        <item>502210 - VILA STA MARGARIDA/JABAQUARA</item>
+        <item>502410 - VILA MISSIONARIA/SANTO AMARO</item>
+        <item>502431 - VILA MISSIONARIA/SANTO AMARO</item>
+        <item>512310 - JD MIRIAM/HOSP SAO PAULO</item>
+        <item>512710 - VILA GUACURI/RIO PEQUENO</item>
+        <item>512810 - JD APURA/SHOP MORUMBI</item>
+        <item>517J10 - JD SELMA/PINHEIROS</item>
+        <item>527R10 - VILA IMPERIO/REAL PARQUE</item>
+        <item>546A10 - JD APURA/SANTO AMARO</item>
+        <item>546A31 - JD APURA/SANTO AMARO</item>
+        <item>546J10 - JD SELMA/STO AMARO</item>
+        <item>546J31 - JD SELMA/SANTO AMARO</item>
+        <item>546J41 - JD SELMA/COLEGIO SANTA MARIA</item>
+        <item>546T10 - VILA GUACURI/TERM STO AMARO</item>
+        <item>570110 - VILA SANTA CATARINA/METRO CONC</item>
+        <item>570210 - CIDADE JULIA/METRO JABAQUARA</item>
+        <item>575210 - V. MISSIONARIA/METRO CONCEICAO</item>
+        <item>575710 - JD. MIRIAM/METRO CONCEICAO</item>
+        <item>575751 - PEDREIRA/METRO CONCEIÇAO</item>
+        <item>575910 - PQ PRIMAVERA/METRO CONCEICAO</item>
+        <item>575931 - PQ PRIMAVERA/METRO CONCEICAO</item>
+        <item>607A10 - JD APURA/SOCORRO</item>
+        <item>607A21 - JD APURA/ESTAÇAO JURUBATUBA</item>
+        <item>627J10 - JD MIRIAM/METRO SAO JUDAS</item>
+        <item>N63711 - METRO JABAQUARA/JARDIM MIRIAM</item>
+        <item>N64011 - TERM SANTO AMARO/ELDORADO</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>600210 - CIDADE DUTRA/AME</item>
+        <item>601610 - JD NORONHA/TERM GRAJAU</item>
+        <item>601641 - JD PORTO VELHO/TERM GRAJAU</item>
+        <item>602010 - CHAC BOSQUE DO SOL/PARELHEIROS</item>
+        <item>602051 - ESTRADA DO JUSA/PARELHEIROS</item>
+        <item>602110 - TERMINAL VARGINHA/JARDIM NOVA </item>
+        <item>602610 - Jd Icaraí - Term Santo Amaro</item>
+        <item>602710 - Jd Graúna - Term Santo Amaro</item>
+        <item>603010 - FACULDADE OSEC/TERM STO AMARO</item>
+        <item>603110 - Jd S Bernardo - Term Sto Amaro</item>
+        <item>603410 - Pq Res Cocaia - Term Sto Amaro</item>
+        <item>605010 - J VALE DAS VIRTUDES/SANTO AMAR</item>
+        <item>605110 - JD ITAJAI/TERM VARGINHA</item>
+        <item>605131 - JD.ITAJAI/TERM.VARGINHA</item>
+        <item>605210 - J SETE SETEMBRO/TERM VARGINHA</item>
+        <item>605231 - JD ALMEIDA PRADO/TERM VARGINHA</item>
+        <item>605310 - JD ELLUS/TERM GRAJAU</item>
+        <item>605510 - JD SAO BERNARDO/SHOP INTERLAGO</item>
+        <item>605610 - PQ SANTA CECILIA/TERM GRAJAU</item>
+        <item>605710 - VILA NATAL/TERM GRAJAU</item>
+        <item>605810 - JD NORONHA/TERM VARGINHA</item>
+        <item>606110 - JD MARILDA/TERM GRAJAU</item>
+        <item>606210 - JD CASTRO ALVES/SANTO AMARO</item>
+        <item>606251 - JD CASTRO ALVES/TERM STO AMARO</item>
+        <item>606310 - JD VARGINHA/TERM VARGINHA</item>
+        <item>606341 - JD VARGINHA/TERM VARGINHA</item>
+        <item>606342 - CHACARA STO AMARO/TER VARGINHA</item>
+        <item>606343 - VILA DA PAZ/TERMINAL VARGINHA</item>
+        <item>606910 - JD SAO BERNARDO/SANTO AMARO</item>
+        <item>607110 - JD ORION/TERM SANTO AMARO</item>
+        <item>607210 - JD SAO NICOLAU/TERM. VARGINHA</item>
+        <item>607221 - JD IPORA/TERM VARGINHA</item>
+        <item>607223 - TERM VARGINHA/BALNEARIO S JOSE</item>
+        <item>607310 - JD SANTA TEREZINHA/TERM VARGIN</item>
+        <item>607410 - JD GAIVOTAS/EST JURUBATUBA</item>
+        <item>607510 - JD REC CAMPO BELO/T VARGINHA</item>
+        <item>607610 - JD PROGRESSO/TERM STO AMARO</item>
+        <item>607641 - JD SATELITE II/TERM STO AMARO</item>
+        <item>607810 - CANTINHO DO CEU/SHOP INTERLAGO</item>
+        <item>608010 - JD LUCELIA/SHOP INTERLAGOS</item>
+        <item>608310 - TERM GRAJAU/JD ELIANA</item>
+        <item>608410 - JD CHACARA DO SOL/TERM VARGINH</item>
+        <item>608421 - JD MORAES PRADO/TERM VARGINH</item>
+        <item>609210 - JD DAS PEDRAS/TERM GRAJAU</item>
+        <item>609310 - VARGEM GRANDE/TERM VARGINHA</item>
+        <item>609910 - PAPAI NOEL - TERM.PARELHEIROS</item>
+        <item>611010 - CONJ HAB PALMARES/CHAC MONTE A</item>
+        <item>611510 - CANTINHO DO CEU/TERM GRAJAU</item>
+        <item>611541 - PQ RES DOS LAGOS/TERM GRAJAU</item>
+        <item>611610 - JD PRAINHA/TERM GRAJAU</item>
+        <item>611810 - JD ICARAI/SANTO AMARO</item>
+        <item>612010 - JD LUCELIA/TERM GRAJAU</item>
+        <item>637V10 - Pq América - Pinheiros</item>
+        <item>672610 - JD GAIVOTA/METRO ANA ROSA</item>
+        <item>677V10 - Jd Nv Horizonte - M Jabaquara</item>
+        <item>695D10 - Jd Sta Bárbara - M Jabaquara</item>
+        <item>6L0110 - MARSILAC/TERM VARGINHA</item>
+        <item>6L0122 - VILA PROGRESSO/TERM VARGINHA</item>
+        <item>6L0210 - EUCALIPTOS/TERM PARELHEIROS</item>
+        <item>6L0310 - CIPO MEIO / TERM PARELHEIROS</item>
+        <item>6L0410 - JD ORIENTAL/TERM PARELHEIROS</item>
+        <item>6L0441 - JD FONTES/TERM PARELH</item>
+        <item>6L0442 - JD ORIENTAL/TERM PARELH</item>
+        <item>6L0510 - BARRAGEM/TERM PARELHEIROS</item>
+        <item>6L0521 - CID NOVA AMERICA/TERM PARELHEI</item>
+        <item>6L0710 - JD SANTA FE/TERM VARGINHA</item>
+        <item>6L0810 - PAPAI NOEL/TERM PARELHEIROS</item>
+        <item>6L1010 - PQ FLORESTAL/TERM VARGINHA</item>
+        <item>6L1041 - MESSIANICA/TERM VARGINHA</item>
+        <item>6L1110 - ILHA DO BORORE/TERM STO AMARO</item>
+        <item>N63511 - TERM GRAJAU/JARDIM GAIVOTAS</item>
+        <item>N63611 - TERM GRAJAU/JARDIM NORONHA</item>
+        <item>N63811 - TERM GRAJAU/UNISA</item>
+        <item>N63911 - TERM GRAJAU/VARGEM GRANDE</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>TREI10 - TREINAMENTO</item>
+        <item>501610 - SHOP.MORUMBI/CIDADE JULIA</item>
+        <item>600810 - JD PLANALTO/SANTO AMARO</item>
+        <item>600821 - PQUE EUROPA/TERM GUARAPIRANGA</item>
+        <item>600841 - JD ANGELA/JD COPACABANA</item>
+        <item>601010 - JD SAO LUIZ/SANTO AMARO</item>
+        <item>601210 - JD ANGELA/SANTO AMARO</item>
+        <item>601231 - PQ INDEPENDENCIA/JD ANGELA</item>
+        <item>601510 - VILA CALU/SANTO AMARO</item>
+        <item>601710 - JD NAKAMURA/SANTO AMARO</item>
+        <item>602210 - PQ CEREJEIRA/SANTO AMARO</item>
+        <item>602810 - RIVIERA/SANTO AMARO</item>
+        <item>603510 - JD GILDA/SANTO AMARO</item>
+        <item>603521 - V GILDA/TERM GUARAPIRANGA</item>
+        <item>603610 - JD MACEDONIA/SANTO AMARO</item>
+        <item>603710 - JD MITSUTANI/SANTO AMARO</item>
+        <item>603810 - JD DAS ROSAS/SANTO AMARO</item>
+        <item>603910 - VALO VELHO/SANTO AMARO</item>
+        <item>603921 - TERMINAL CAPELINHA/COHAB</item>
+        <item>604110 - JD JANGADEIRO/SANTO AMARO</item>
+        <item>604121 - MONTE AZUL/TERM JOAO DIAS</item>
+        <item>604210 - JD TRES ESTRELAS/SANTO AMARO</item>
+        <item>604221 - JD SONIA/INGA</item>
+        <item>604222 - JD VAZ DE LIMA/TERM CAPELINHA</item>
+        <item>604310 - JD CAPELINHA/SANTO AMARO</item>
+        <item>604410 - JD STO EDUARDO/SANTO AMARO</item>
+        <item>604510 - VALO VELHO/SANTO AMARO</item>
+        <item>604521 - VALO VELHO/CAPAO REDONDO</item>
+        <item>604610 - JD SAO BENTO NOVO/SANTO AMARO</item>
+        <item>604710 - JD LIDIA/SANTO AMARO</item>
+        <item>605910 - JD UNIVERSAL/SANTO AMARO</item>
+        <item>625810 - JD SAO FRANCISCO/CHAC STO ANTO</item>
+        <item>625831 - PQ FIGUEIRA G/T GUARAPIRANGA</item>
+        <item>677Y10 - JD GUARUJA/VILA GUARANI</item>
+        <item>681210 - JD CAPELA/SANTO AMARO</item>
+        <item>700510 - JD VERA CRUZ/JD ANGELA</item>
+        <item>700551 - JD VERA CRUZ/M CAPAO REDONDO</item>
+        <item>700610 - JD HORIZONTE AZUL/JD ANGELA</item>
+        <item>700651 - JD HORIZON AZUL/M CAPAO REDON </item>
+        <item>700910 - JD SAO LOURENÇO/JD ANGELA</item>
+        <item>701110 - JD DOS REIS/JD ANGELA</item>
+        <item>701131 - JD DOS REIS/JD ANGELA</item>
+        <item>701210 - PQ DO LAGO/TERM GUARAPIRANGA</item>
+        <item>701710 - JD GUARUJA/TERM GUARAPIRANGA</item>
+        <item>704910 - PARQUE DO LAGO/T CAMPO LIMPO</item>
+        <item>705110 - JD ROSANA/TERM CAMPO LIMPO</item>
+        <item>705210 - JD HELGA/TERM CAMPO LIMPO</item>
+        <item>705310 - JD MACEDONIA/TERM CAMPO LIMPO</item>
+        <item>705321 - JD MARIA SAMPAIO/T CAMPO LIMPO</item>
+        <item>705322 - JD MARIA SAMPAIO/T CAMPO LIMPO</item>
+        <item>705410 - JD MACEDONIA/TERM CAMPO LIMPO</item>
+        <item>705510 - JD GUARUJA/TERM CAMPO LIMPO</item>
+        <item>705710 - JD MITSUTANI/TERM CAMPO LIMPO</item>
+        <item>706210 - INOCOOP C LIMPO/T CAMPO LIMPO</item>
+        <item>706231 - CAMPO LIMPO/TERM CAMPO LIMPO</item>
+        <item>706241 - METRO CAMPO LIMPO/HORTO DO YPE</item>
+        <item>706310 - JD MACEDONIA/TERM CAMPO LIMPO</item>
+        <item>N73611 - T JD ANGELA/JD HORIZONTE AZUL</item>
+        <item>N73711 - TERM JD ANGELA/PARQUE DO LAGO</item>
+        <item>N73811 - TERM GUARAPIRANGA/PQ DO LAGO</item>
+        <item>N73911 - TERM CAPELINHA/JD UNIVERSAL</item>
+        <item>N74011 - TERM JD ANGELA/JD RIVIERA</item>
+        <item>N74311 - TERM JOAO DIAS/JARDIM PLANALTO</item>
+        <item>N74611 - TERM CAMPO LIMPO/JARDIM IRENE</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>641210 - PARAISOPOLIS/TERM PRINC ISABEL</item>
+        <item>641221 - PARAISOPOLIS/ITAMIM BIBI</item>
+        <item>641810 - REAL PARQUE/TERM BANDEIRA</item>
+        <item>683710 - JD DAS PALMAS-TERM CAPELINHA</item>
+        <item>701310 - PQ ARARIBA/PINHEIROS</item>
+        <item>745M10 - CAMPO LIMPO/SHOP SP MARKET</item>
+        <item>745M21 - COHAB ADVENTISTA/CAMPO LIMPO</item>
+        <item>746K10 - PARAISOPOLIS/BROOKLIN</item>
+        <item>746P10 - PARAISOPOLIS/STO AMARO</item>
+        <item>746R10 - REAL PARQUE/STO AMARO</item>
+        <item>746V10 - JD REBOUCAS/STO AMARO</item>
+        <item>756A10 - JD PAULO VI/STO AMARO</item>
+        <item>775F10 - JD DAS PALMAS/HOSP CLINICAS</item>
+        <item>775F31 - JD DAS PALMAS/PQ DO POVO</item>
+        <item>802810 - PARAISAPOLIS/ESTAÇAO MORUMBI</item>
+        <item>802910 - SHOP PORTAL/TERMINAL MORIMBI</item>
+        <item>807210 - PQ IPE/BUTANTA</item>
+        <item>807310 - JD GUARAU/BUTANTA</item>
+        <item>807810 - JD DAS PALMAS/METRO CAMPO LIMP</item>
+        <item>807831 - JD DAS PALMAS/HOSP CAMPO LIMPO</item>
+        <item>807J10 - TERM CAMPO LIMPO/SHOP MORUMBI</item>
+        <item>807M10 - T CAMPO LIMPO/SHOPPING MORUMBI</item>
+        <item>807P10 - PARAISOPOLIS/SANT0 AMARO</item>
+        <item>809L10 - CAMPO LIMPO/LAPA</item>
+        <item>EVENTO - E V E N T O</item>
+        <item>N84311 - TERM CAPELINHA/JARDIM ARARIBA</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>700210 - JD ROSA MARIA/HOSP CLINICAS</item>
+        <item>704010 - PARAISOPOLIS/PINHEIROS</item>
+        <item>704021 - PARAISOPOLIS/PINHEIROS</item>
+        <item>736G10 - JD INGA/BORBA GATO</item>
+        <item>736I10 - JD INGA/STO AMARO</item>
+        <item>736I21 - JD INGA/METRO VILA DAS BELEZAS</item>
+        <item>746C10 - JD TABOAO/STO AMARO</item>
+        <item>746H10 - JD JAQUELINE/STO AMARO</item>
+        <item>802510 - JD ROSA MARIA/BUTANTA</item>
+        <item>802610 - JD INGA/BUTANTA</item>
+        <item>803810 - JAGUARE/LAPA</item>
+        <item>EVENTO - E V E N T O</item>
+        <item>N83711 - TERM JOAO DIAS/CDHU BUTANTA</item>
+        <item>9940PR - TERMINAL GRAJAU - 6726-10</item>
+        <item>9941PR - TERMINAL GRAJAU - 6093-10</item>
+        <item>9930PR - TERMINAL SACOMA</item>
+        <item>101610 - CEMITERIO DO HORTO/CENTER NORT</item>
+        <item>118Y10 - LAUZANE PAULISTA/LAPA</item>
+        <item>172J10 - JD BRASIL/TATUAPE</item>
+        <item>271910 - ERMELINO MATARAZZO/METR V MATI</item>
+        <item>304610 - VILA GUARANI/TATUAPE</item>
+        <item>372910 - SHOP ARICANDUVA/METRO CARRAO</item>
+        <item>376310 - TERM VL CARRAO/METRO TATUAPE</item>
+        <item>503110 - VILA ARAPUA/TERM SACOMA</item>
+        <item>501010 - CIDADE VARGAS/SANTO AMARO</item>
+        <item>501110 - ELDORADO/SANTO AMARO</item>
+        <item>501210 - JD GUACURI/JABAQUARA</item>
+        <item>501310 - JD LUSO/SANTO AMARO</item>
+        <item>501331 - JD MIRIAM/SANTO AMARO</item>
+        <item>501510 - JD SAO JORGE/JABAQUARA</item>
+        <item>501810 - SHOP. INTERLAGOS - JABAQUARA</item>
+        <item>501831 - SHOPPING INTERLAGOS/JABAQUARA</item>
+        <item>502210 - VILA STA MARGARIDA/JABAQUARA</item>
+        <item>502410 - VILA MISSIONARIA/SANTO AMARO</item>
+        <item>502431 - VILA MISSIONARIA/SANTO AMARO</item>
+        <item>512310 - JD MIRIAM/HOSP SAO PAULO</item>
+        <item>512710 - VILA GUACURI/RIO PEQUENO</item>
+        <item>512810 - JD APURA/SHOP MORUMBI</item>
+        <item>517J10 - JD SELMA/PINHEIROS</item>
+        <item>527R10 - VILA IMPERIO/REAL PARQUE</item>
+        <item>546A10 - JD APURA/SANTO AMARO</item>
+        <item>546A31 - JD APURA/SANTO AMARO</item>
+        <item>546J10 - JD SELMA/STO AMARO</item>
+        <item>546J31 - JD SELMA/SANTO AMARO</item>
+        <item>546T10 - VILA GUACURI/TERM STO AMARO</item>
+        <item>570110 - VILA SANTA CATARINA/METRO CONC</item>
+        <item>570210 - CIDADE JULIA/METRO JABAQUARA</item>
+        <item>575210 - V. MISSIONARIA/METRO CONCEICAO</item>
+        <item>575710 - JD. MIRIAM/METRO CONCEICAO</item>
+        <item>575910 - PQ PRIMAVERA/METRO CONCEICAO</item>
+        <item>575931 - PQ PRIMAVERA/METRO CONCEICAO</item>
+        <item>607A10 - JD APURA/SOCORRO</item>
+        <item>607A21 - JD APURA/ESTAÇAO JURUBATUBA</item>
+        <item>627J10 - JD MIRIAM/METRO SAO JUDAS</item>
+        <item>N63711 - METRO JABAQUARA/JARDIM MIRIAM</item>
+        <item>N64011 - TERM SANTO AMARO/ELDORADO</item>
+        <item>9924PR - TERM VARGINHA/COOPERPAM</item>
+        <item>RNOT11 - RESERVA NOTRNA</item>
+        <item>001 - ITAPECERICA DA SERRA (PARQUE PARAISO)</item>
+        <item>002 - EMBU DAS ARTES (ENGENHO VELHO)</item>
+        <item>003 - GUARULHOS (COCAIA)</item>
+        <item>004 - SAO BERNARDO DO CAMPO (PARQUE ALVARENGA)</item>
+        <item>006 - SAO BERNARDO DO CAMPO (JARDIM NAZARETH)</item>
+        <item>008 - SAO CAETANO DO SUL (NOVA GERTI)</item>
+        <item>009 - EMBU-GUACU (VILA LOURO)</item>
+        <item>011 - GUARULHOS (PARQUE CONTINENTAL II)</item>
+        <item>011 - GUARULHOS (PARQUE CONTINENTAL II)</item>
+        <item>011PR1 - GUARULHOS (PARQUE CONTINENTAL III)</item>
+        <item>012 - EMBU-GUACU (CIPO)</item>
+        <item>014 - FRANCO DA ROCHA (PARQUE VITORIA)</item>
+        <item>015 - GUARULHOS (TERMINAL METROPOLITANO TABOAO)</item>
+        <item>016 - GUARULHOS (TERMINAL URBANO GUARULHOS)</item>
+        <item>017 - EMBU (CENTRO)</item>
+        <item>020 - CARAPICUIBA (VILA DIRCE)</item>
+        <item>022 - CARAPICUIBA (VILA DIRCE)</item>
+        <item>023 - CARAPICUIBA (COHAB V)</item>
+        <item>024 - ITAPEVI (JARDIM AMADOR BUENO)</item>
+        <item>025 - SUZANO (CIDADE EDSON)</item>
+        <item>026 - POA (TERMINAL RODOVIARIO JARDIM SAO JOSE)</item>
+        <item>027 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>027EX1 - SANTO ANDRE (HOSPITAL MARIO COVAS)</item>
+        <item>029 - TABOAO DA SERRA (JARDIM MONTE ALEGRE)</item>
+        <item>030 - JUQUITIBA (BARNABES)</item>
+        <item>030BI1 - JUQUITIBA (BAIRRO DOS JUSTINOS)</item>
+        <item>030VP1 - JUQUITIBA (CENTRO)</item>
+        <item>031 - EMBU-GUACU (CHACARA FLORIDA)</item>
+        <item>032 - ITAPECERICA DA SERRA (PARQUE PARAISO)</item>
+        <item>032BI1 - EMBU DAS ARTES (JARDIM MIMAS)</item>
+        <item>032BI2 - ITAPECERICA DA SERRA (JARDIM SAMPAIO)</item>
+        <item>032DV1 - ITAPECERICA DA SERRA (PARQUE PARAISO)</item>
+        <item>033 - EMBU DAS ARTES (ENGENHO VELHO)</item>
+        <item>034 - ITAPECERICA DA SERRA (JARDIM SAO MARCOS)</item>
+        <item>035 - COTIA (MIRANTE DA MATA)</item>
+        <item>036 - VARGEM GRANDE PAULISTA (JARDIM SAO MARCOS)</item>
+        <item>036BI1 - EMBU DAS ARTES (JARDIM TOME)</item>
+        <item>038 - MOGI DAS CRUZES (ESTACAO CPTM ESTUDANTES)</item>
+        <item>038VP1 - SAO PAULO (SAO MIGUEL PAULISTA)</item>
+        <item>039 - SUZANO (CIDADE EDSON)</item>
+        <item>040 - SANTO ANDRE (PARANAPIACABA)</item>
+        <item>040EX1 - SANTO ANDRE (PARQUE ANDREENSE)</item>
+        <item>041 - RIO GRANDE DA SERRA (CENTRO)</item>
+        <item>042 - MAIRIPORA (DIVISA)</item>
+        <item>042VP1 - MAIRIPORA (TERMINAL RODOVIARIO SIGUEMI AIACYDA)</item>
+        <item>043 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>043BI1 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>044 - SAO PAULO (JARDIM CASTELO)</item>
+        <item>047 - SANTO ANDRE (VILA PALMARES)</item>
+        <item>049 - MAIRIPORA (TERMINAL RODOVIARIO SIGUEMI AIACYDA)</item>
+        <item>050 - SAO BERNARDO DO CAMPO (PACO MUNICIPAL)</item>
+        <item>050 - SAO BERNARDO DO CAMPO (PACO MUNICIPAL)</item>
+        <item>050EX1 - SAO BERNARDO DO CAMPO (PACO MUNICIPAL)</item>
+        <item>051 - DIADEMA (VILA SAO JOSE)</item>
+        <item>052 - OSASCO (JARDIM ELVIRA)</item>
+        <item>053 - BARUERI (PARQUE IMPERIAL)</item>
+        <item>053BI1 - OSASCO (JARDIM COLINAS D OESTE)</item>
+        <item>054 - CAJAMAR (JORDANESIA)</item>
+        <item>055 - CAJAMAR (CENTRO)</item>
+        <item>056 - EMBU DAS ARTES (CENTRO)</item>
+        <item>057 - OSASCO (VILA MENCK)</item>
+        <item>058 - OSASCO (TERMINAL RODOVIARIO HELENA MARIA)</item>
+        <item>059 - OSASCO (CONJUNTO DOS METALURGICOS)</item>
+        <item>059PR1 - CARAPICUIBA (JARDIM NOVO HORIZONTE)</item>
+        <item>060 - OSASCO (OLARIA DO NINO)</item>
+        <item>060BI1 - OSASCO (JARDIM SANTA MARIA)</item>
+        <item>061 - CARAPICUIBA (JARDIM GUAPIUVA)</item>
+        <item>063 - RIBEIRAO PIRES (OURO FINO PAULISTA)</item>
+        <item>063 - RIBEIRAO PIRES (OURO FINO PAULISTA)</item>
+        <item>063EX1 - RIO GRANDE DA SERRA (SANTA TEREZA)</item>
+        <item>064 - MAUA (VILA MERCEDES)</item>
+        <item>064 - MAUA (VILA MERCEDES)</item>
+        <item>066 - SANTO ANDRE (JARDIM LAS VEGAS)</item>
+        <item>068 - TABOAO DA SERRA (PARQUE LAGUNA)</item>
+        <item>068EX1 - TABOAO DA SERRA (CIDADE INTERCAP)</item>
+        <item>069 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE)</item>
+        <item>070 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE)</item>
+        <item>073 - GUARULHOS (NOVA BONSUCESSO)</item>
+        <item>075 - ARUJA (PARQUE RODRIGO BARRETO)</item>
+        <item>075VP1 - ARUJA (PARQUE RODRIGO BARRETO)</item>
+        <item>076 - POA (TERMINAL RODOVIARIO JARDIM SAO JOSE)</item>
+        <item>077 - GUARULHOS (JARDIM ANY)</item>
+        <item>078 - EMBU DAS ARTES (PARQUE PIRAJUSSARA)</item>
+        <item>078BI1 - TABOAO DA SERRA (PARQUE MARABA)</item>
+        <item>078PR1 - EMBU DAS ARTES (JARDIM SAO MARCOS)</item>
+        <item>079 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>080 - OSASCO (JARDIM BONANCA)</item>
+        <item>081 - JANDIRA (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>082 - PIRAPORA DO BOM JESUS (JARDIM BOM JESUS)</item>
+        <item>082BI1 - PIRAPORA DO BOM JESUS (IGAVETA)</item>
+        <item>082DV1 - PIRAPORA DO BOM JESUS (JARDIM BOM JESUS)</item>
+        <item>084 - FRANCO DA ROCHA (PARQUE VITORIA)</item>
+        <item>085 - SANTANA DE PARNAIBA (PARQUE SANTANA)</item>
+        <item>085VP1 - SANTANA DE PARNAIBA (PARQUE SANTANA)</item>
+        <item>086 - OSASCO (JARDIM VELOSO)</item>
+        <item>086PR1 - CARAPICUIBA (JARDIM GUAPIUVA)</item>
+        <item>087 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>087 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>088 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>089 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>090 - EMBU DAS ARTES (TERMINAL CASA BRANCA)</item>
+        <item>090PR1 - EMBU DAS ARTES (JARDIM VALO VERDE)</item>
+        <item>091 - SAO LOURENCO DA SERRA (VILA RITA SOARES)</item>
+        <item>093 - GUARULHOS (TERMINAL METROPOLITANO VILA GALVAO)</item>
+        <item>094 - GUARULHOS (COCAIA)</item>
+        <item>095 - GUARULHOS (TERMINAL METROPOLITANO TABOAO)</item>
+        <item>096 - GUARULHOS (HAROLDO VELOSO)</item>
+        <item>097 - GUARULHOS (JARDIM SAO PAULO)</item>
+        <item>100 - GUARULHOS (PARQUE PRIMAVERA)</item>
+        <item>100BI1 - GUARULHOS (JARDIM DOS EUCALIPTOS)</item>
+        <item>101 - SAO CAETANO DO SUL (VILA PROSPERIDADE)</item>
+        <item>102 - SAO CAETANO DO SUL (BAIRRO FUNDACAO)</item>
+        <item>103 - GUARULHOS (PARQUE CONTINENTAL)</item>
+        <item>104 - GUARULHOS (BOM CLIMA)</item>
+        <item>105 - GUARULHOS (JARDIM MOREIRA)</item>
+        <item>105VP1 - GUARULHOS (VILA ROSALIA)</item>
+        <item>107 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>110 - GUARULHOS (COCAIA)</item>
+        <item>111 - GUARULHOS (JARDIM LEDA)</item>
+        <item>112 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>113 - OSASCO (JARDIM SANTA FE)</item>
+        <item>114 - FERRAZ DE VASCONCELOS (PARQUE SAO FRANCISCO)</item>
+        <item>115 - ARUJA (CENTRO)</item>
+        <item>116 - BARUERI (CENTRO)</item>
+        <item>117 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>120 - CAJAMAR (VAU NOVO)</item>
+        <item>120PR1 - CAJAMAR (LAGO AZUL)</item>
+        <item>121 - GUARULHOS (TERMINAL URBANO GUARULHOS)</item>
+        <item>122 - BARUERI (PETROBRAS)</item>
+        <item>123 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>124 - EMBU DAS ARTES (JARDIM SANTO EDUARDO)</item>
+        <item>124BI1 - EMBU DAS ARTES (JARDIM ANGELA)</item>
+        <item>125 - EMBU DAS ARTES (JARDIM SAO MARCOS)</item>
+        <item>125BI1 - EMBU DAS ARTES (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>125BI2 - EMBU DAS ARTES (VILA ISIS CRISTINA)</item>
+        <item>126 - TABOAO DA SERRA (JARDIM PIRAJUCARA)</item>
+        <item>126EX1 - TABOAO DA SERRA (JARDIM PIRAJUCARA)</item>
+        <item>128 - EMBU DAS ARTES (JARDIM DO COLEGIO)</item>
+        <item>129 - OSASCO (CIDADE DE DEUS)</item>
+        <item>130 - JANDIRA (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>131 - CARAPICUIBA (VILA DIRCE)</item>
+        <item>133 - ITAPEVI (COHAB/JARDIM PAULISTA)</item>
+        <item>133BI1 - ITAPEVI (VILA GIOIA)</item>
+        <item>134 - BARUERI (PARQUE VIANA)</item>
+        <item>137 - GUARULHOS (JARDIM FORTALEZA)</item>
+        <item>138 - OSASCO (MUNHOZ JUNIOR)</item>
+        <item>139 - SAO PAULO (SAO MIGUEL PAULISTA)</item>
+        <item>139BI1 - SAO PAULO (VILA PROGRESSO)</item>
+        <item>140 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>141 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>143 - MAUA (PARQUE DAS AMERICAS)</item>
+        <item>144 - MOGI DAS CRUZES (ESTACAO CPTM ESTUDANTES)</item>
+        <item>145 - SUZANO (CIDADE EDSON)</item>
+        <item>145VP1 - SUZANO (LAR DAS FLORES)</item>
+        <item>147 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>147 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>148 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>149 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO DOUTOR NICOLAU DELIC</item>
+        <item>149 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO DOUTOR NICOLAU DELIC</item>
+        <item>151 - SANTO ANDRE (JARDIM CAMBUI)</item>
+        <item>151DV1 - SANTO ANDRE (JARDIM CAMBUI)</item>
+        <item>152 - SAO BERNARDO DO CAMPO (AREA VERDE)</item>
+        <item>153 - SAO BERNARDO DO CAMPO (CONJUNTO TERRA NOVA II)</item>
+        <item>154 - SAO BERNARDO DO CAMPO (JARDIM NAZARETH)</item>
+        <item>156 - DIADEMA (ELDORADO)</item>
+        <item>156BI1 - DIADEMA (ELDORADO)</item>
+        <item>156VP1 - DIADEMA (ELDORADO)</item>
+        <item>157 - MAUA (SILVIA MARIA)</item>
+        <item>158 - MAUA (JARDIM ZAIRA)</item>
+        <item>158BI1 - MAUA (JARDIM ZAIRA)</item>
+        <item>159 - MAUA (SERTAOZINHO)</item>
+        <item>160 - MAUA (JARDIM ADELINA)</item>
+        <item>160EX1 - MAUA (JARDIM ITAPEVA)</item>
+        <item>163 - GUARULHOS (JD. PALMIRA - PARQUE CONTINENTAL)</item>
+        <item>164 - ITAPECERICA DA SERRA (PARQUE PARAISO)</item>
+        <item>165 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>165BI1 - SANTO ANDRE (PARQUE REPRESA BILLINGS)</item>
+        <item>165EX1 - RIO GRANDE DA SERRA (CENTRO)</item>
+        <item>166 - ARUJA (CENTRO)</item>
+        <item>166BI1 - GUARULHOS (JARDIM ALAMO)</item>
+        <item>167 - GUARULHOS (VILA CARMELA)</item>
+        <item>167PR1 - GUARULHOS (PARQUE RESIDENCIAL BAMBI)</item>
+        <item>170 - SAO CAETANO DO SUL (ESTACAO)</item>
+        <item>171 - SAO CAETANO DO SUL (ESTACAO)</item>
+        <item>173 - SANTO ANDRE (JARDIM SANTA CRISTINA)</item>
+        <item>175 - GUARULHOS (COCAIA)</item>
+        <item>176 - GUARULHOS (COCAIA/JARDIM ADRIANA)</item>
+        <item>177 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>178 - EMBU DAS ARTES (JARDIM VAZAME)</item>
+        <item>178BI1 - EMBU DAS ARTES (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>179 - EMBU DAS ARTES (ENGENHO VELHO)</item>
+        <item>180 - OSASCO (JARDIM PRIMEIRO DE MAIO)</item>
+        <item>180DV1 - OSASCO (JARDIM PRIMEIRO DE MAIO)</item>
+        <item>180DV2 - OSASCO (JARDIM PRIMEIRO DE MAIO)</item>
+        <item>181 - CARAPICUIBA (PARQUE SANTA TEREZA)</item>
+        <item>182 - SAO BERNARDO DO CAMPO (ACAMPAMENTO DOS ENGENHEIROS)</item>
+        <item>187 - MAIRIPORA (TERMINAL RODOVIARIO SIGUEMI AIACYDA)</item>
+        <item>190 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>191 - TABOAO DA SERRA (PARQUE PINHEIROS)</item>
+        <item>192 - TABOAO DA SERRA (PARQUE JACARANDA)</item>
+        <item>192EX1 - TABOAO DA SERRA (PARQUE JACARANDA)</item>
+        <item>193 - EMBU DAS ARTES (JARDIM SANTA TEREZA)</item>
+        <item>194 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>195 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>196 - SAO BERNARDO DO CAMPO (PARQUE SELECTA)</item>
+        <item>197 - FRANCISCO MORATO (PARQUE PAULISTA)</item>
+        <item>198 - CAIEIRAS (LARANJEIRAS)</item>
+        <item>198 - CAIEIRAS (LARANJEIRAS)</item>
+        <item>199 - FRANCO DA ROCHA (JARDIM LUCIANA)</item>
+        <item>200 - MOGI DAS CRUZES (TERMINAL RODOVIARIO GERALDO SCAVONE)</item>
+        <item>201 - MOGI DAS CRUZES (TERMINAL RODOVIARIO GERALDO SCAVONE)</item>
+        <item>202 - OSASCO (JARDIM ADALGISA)</item>
+        <item>203 - OSASCO (BEL JARDIM)</item>
+        <item>204 - OSASCO (MUNHOZ JUNIOR)</item>
+        <item>205 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>205EX3 - FERRAZ DE VASCONCELOS (VILA ANA MARIA)</item>
+        <item>205VP1 - FERRAZ DE VASCONCELOS (VILA ANA MARIA)</item>
+        <item>206 - GUARAREMA (CENTRO)</item>
+        <item>208 - GUARAREMA (TERMINAL RODOVIARIO DE GUARAREMA)</item>
+        <item>209 - BIRITIBA MIRIM (TERMINAL RODOVIARIO DE BIRITIBA MIRIM)</item>
+        <item>210 - BIRITIBA MIRIM (CASA GRANDE)</item>
+        <item>211 - OSASCO (VILA MENCK)</item>
+        <item>212 - DIADEMA (JARDIM SAPOPEMA)</item>
+        <item>212BI1 - DIADEMA (VILA PAULINA)</item>
+        <item>213 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>214 - SUZANO (CENTRO)</item>
+        <item>214VP1 - ITAQUAQUECETUBA (RANCHO GRANDE)</item>
+        <item>215 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>215BI1 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES</item>
+        <item>216 - FRANCISCO MORATO (JARDIM DA ALEGRIA)</item>
+        <item>217 - SAO BERNARDO DO CAMPO (CONJUNTO TERRA NOVA II)</item>
+        <item>217 - SAO BERNARDO DO CAMPO (CONJUNTO TERRA NOVA II)</item>
+        <item>218 - SAO BERNARDO DO CAMPO (AREA VERDE)</item>
+        <item>218EX1 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>218EX2 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>219 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>219BI1 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>220 - ARUJA (CENTRO)</item>
+        <item>223 - CARAPICUIBA (COHAB V)</item>
+        <item>224 - CARAPICUIBA (COHAB V)</item>
+        <item>225 - CARAPICUIBA (COHAB V)</item>
+        <item>226 - EMBU-GUACU (CHACARA FLORIDA)</item>
+        <item>227 - GUARULHOS (JARDIM LEBLON)</item>
+        <item>228 - BARUERI (ALPHAVILLE 3 / BRADESCO)</item>
+        <item>229 - OSASCO (JARDIM ACUCARA)</item>
+        <item>230 - BARUERI (ALPHAVILLE)</item>
+        <item>231 - OSASCO (JARDIM ELVIRA)</item>
+        <item>231BI1 - OSASCO (MUNHOZ JUNIOR)</item>
+        <item>236 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>237 - ITAPECERICA DA SERRA (JARDIM SAO PEDRO)</item>
+        <item>238 - SAO BERNARDO DO CAMPO (PARQUE LOS ANGELES)</item>
+        <item>239 - ITAPECERICA DA SERRA (JARDIM SAO MARCOS)</item>
+        <item>240 - MAIRIPORA (TERMINAL RODOVIARIO SIGUEMI AIACYDA)</item>
+        <item>241 - TABOAO DA SERRA (PARQUE JACARANDA)</item>
+        <item>242 - ITAQUAQUECETUBA (JARDIM PINHEIRINHO)</item>
+        <item>242BI1 - ITAQUAQUECETUBA (PEQUENO CORACAO)</item>
+        <item>243 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>243DV1 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>244 - OSASCO (CENTRO)</item>
+        <item>244BI1 - OSASCO (VILA YARA)</item>
+        <item>244VP1 - OSASCO (CIDADE DE DEUS)</item>
+        <item>245 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>245BI1 - TABOAO DA SERRA (JARDIM SAINT MORITZ)</item>
+        <item>246 - SANTANA DE PARNAIBA (JARDIM SAO LUIS)</item>
+        <item>246BI1 - SANTANA DE PARNAIBA (JARDIM PROFESSOR BENOA)</item>
+        <item>247 - BARUERI (ALDEIA DA SERRA)</item>
+        <item>247VP1 - JANDIRA (JARDIM ALVORADA)</item>
+        <item>247VP2 - BARUERI (ALDEIA DA SERRA)</item>
+        <item>248 - GUARULHOS (PARQUE SANTOS DUMONT)</item>
+        <item>249 - GUARULHOS (JARDIM PAULISTA)</item>
+        <item>250 - GUARULHOS (COCAIA)</item>
+        <item>252 - GUARULHOS (JARDIM CUMBICA)</item>
+        <item>253 - GUARULHOS (JARDIM PARAISO)</item>
+        <item>254 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>254DV1 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>255 - DIADEMA (JARDIM PADRE ANCHIETA)</item>
+        <item>256 - COTIA (CAUCAIA DO ALTO)</item>
+        <item>257 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>258 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>259 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>260 - BARUERI (ALPHAVILLE)</item>
+        <item>261 - SANTANA DE PARNAIBA (VARZEA DE SOUZA)</item>
+        <item>262 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE)</item>
+        <item>263 - CARAPICUIBA (JARDIM NOVO HORIZONTE)</item>
+        <item>264 - SANTANA DE PARNAIBA (PARQUE SANTANA)</item>
+        <item>264BI1 - BARUERI (JARDIM CALIFORNIA)</item>
+        <item>265 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE - LESTE)</item>
+        <item>266 - GUARULHOS (INOCOOP)</item>
+        <item>266DV1 - GUARULHOS (INOCOOP)</item>
+        <item>269 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>270 - GUARULHOS (BOM CLIMA)</item>
+        <item>271 - GUARULHOS (TERMINAL METROPOLITANO TABOAO)</item>
+        <item>272 - EMBU DAS ARTES (TERMINAL CASA BRANCA)</item>
+        <item>273 - SUZANO (CENTRO)</item>
+        <item>277 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>278 - OSASCO (CENTRO)</item>
+        <item>279 - DIADEMA (TERMINAL METROPOLITANO DE DIADEMA)</item>
+        <item>280 - OSASCO (CENTRO)</item>
+        <item>280BI1 - SAO PAULO (CIDADE UNIVERSITARIA)</item>
+        <item>281 - MAIRIPORA (TERMINAL RODOVIARIO SIGUEMI AIACYDA)</item>
+        <item>282 - JUQUITIBA (TERMINAL RODOVIARIO METROPOLITANO DE JUQUITIBA)</item>
+        <item>283 - CARAPICUIBA (CIDADE ARISTON)</item>
+        <item>284 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>284 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>284 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>284M - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>285 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>285 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>285 - SAO PAULO (TERMINAL METROPOLITANO SAO MATEUS)</item>
+        <item>286 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>286 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>286 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>286 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>287 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>287 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>287PIR - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>287PIR - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE OESTE)</item>
+        <item>288 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>288 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>288 - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>288PIR - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>288PIR - SAO BERNARDO DO CAMPO (TERMINAL METROPOLITANO FERRAZOPOLIS)</item>
+        <item>289 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>289 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>289 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>289 - DIADEMA (TERMINAL METROPOLITANO PIRAPORINHA)</item>
+        <item>290 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>290 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>290 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>290 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>291 - JANDIRA (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>291BI1 - ITAPEVI (JARDIM BELA VISTA)</item>
+        <item>292 - GUARULHOS (JARDIM ANGELICA)</item>
+        <item>292DV1 - GUARULHOS (JARDIM ANGELICA)</item>
+        <item>293 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>297 - COTIA (CAUCAIA DO ALTO)</item>
+        <item>297BI1 - VARGEM GRANDE PAULISTA (PARQUE DO AGRESTE)</item>
+        <item>298 - COTIA (MIRANTE DA MATA)</item>
+        <item>299 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>300 - TABOAO DA SERRA (JARDIM SAO JUDAS TADEU)</item>
+        <item>300EX1 - TABOAO DA SERRA (PARQUE LAGUNA)</item>
+        <item>301 - ITAQUAQUECETUBA (RANCHO GRANDE)</item>
+        <item>302 - ITAQUAQUECETUBA (TERMINAL URBANO ENGENHEIRO MANOEL FEIO)</item>
+        <item>303 - BARUERI (PARQUE IMPERIAL)</item>
+        <item>305 - DIADEMA (JARDIM PADRE ANCHIETA)</item>
+        <item>307 - CARAPICUIBA (TERMINAL RODOFERROVIARIO DE CARAPICUIBA)</item>
+        <item>308 - COTIA (ATALAIA)</item>
+        <item>308VP1 - COTIA (ATALAIA)</item>
+        <item>309 - SANTANA DE PARNAIBA (PARQUE SANTANA)</item>
+        <item>310 - SANTANA DE PARNAIBA (COLINAS DA ANHANGUERA)</item>
+        <item>311 - SALESOPOLIS (TREVO DA PETROBRAS)</item>
+        <item>311DV1 - SALESOPOLIS (TREVO DA PETROBRAS)</item>
+        <item>312 - SANTANA DE PARNAIBA (COLINAS DA ANHANGUERA)</item>
+        <item>313 - ITAPEVI (DIVISA SAO ROQUE)</item>
+        <item>314 - SAO BERNARDO DO CAMPO (JARDIM LAS PALMAS)</item>
+        <item>315 - POA (TERMINAL RODOVIARIO AYRTON SENNA)</item>
+        <item>316 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>317 - FRANCISCO MORATO (CENTRO)</item>
+        <item>318 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>319 - GUARULHOS (VILA ANY)</item>
+        <item>321 - CARAPICUIBA (COHAB V)</item>
+        <item>322 - BARUERI (PARQUE IMPERIAL)</item>
+        <item>323 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE)</item>
+        <item>324 - SANTANA DE PARNAIBA (COLINAS DA ANHANGUERA)</item>
+        <item>324BI1 - SANTANA DE PARNAIBA (JARDIM SAO LUIS)</item>
+        <item>327 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>328 - POA (TERMINAL RODOVIARIO JARDIM SAO JOSE)</item>
+        <item>328EX1 - POA (TERMINAL RODOVIARO JARDIM SAO JOSE)</item>
+        <item>328EX2 - POA (TERMINAL RODOVIARIO JARDIM SAO JOSE)</item>
+        <item>329 - CARAPICUIBA (VILA MENCK)</item>
+        <item>331 - CAIEIRAS (LARANJEIRAS)</item>
+        <item>332 - ITAQUAQUECETUBA (RESIDENCIAL MARENGO)</item>
+        <item>332DV1 - ITAQUAQUECETUBA (RESIDENCIAL MARENGO)</item>
+        <item>333 - EMBU DAS ARTES (JARDIM MIMAS)</item>
+        <item>334 - COTIA (JARDIM DO ENGENHO)</item>
+        <item>335 - POA (TERMINAL RODOVIARIO PEDRO FAVA - CIDADE KEMEL)</item>
+        <item>336 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>337 - GUARULHOS (TERMINAL METROPOLITANO TABOAO)</item>
+        <item>337BI1 - GUARULHOS (RECREIO SAO JORGE)</item>
+        <item>339 - ITAPECERICA DA SERRA (JARDIM VICTORIA)</item>
+        <item>340 - ITAPECERICA DA SERRA (JARDIM SAO MARCOS)</item>
+        <item>341 - GUARULHOS (VILA ANY)</item>
+        <item>342 - GUARULHOS (JARDIM CUMBICA/PARQUE BRASILIA)</item>
+        <item>342DV1 - GUARULHOS (JARDIM CUMBICA/PARQUE BRASILIA)</item>
+        <item>343 - EMBU DAS ARTES (JARDIM DO COLEGIO)</item>
+        <item>344 - GUARULHOS (PARQUE ALVORADA)</item>
+        <item>345 - BARUERI (VALE DO SOL)</item>
+        <item>346 - JANDIRA (JARDIM NOSSA SENHORA DE FATIMA)</item>
+        <item>347 - EMBU DAS ARTES (PARQUE INDUSTRIAL)</item>
+        <item>348 - ARUJA (TERMINAL RODOVIARIO DE ARUJA)</item>
+        <item>349 - GUARULHOS (PARQUE BRASILIA)</item>
+        <item>350 - ITAPEVI (COHAB)</item>
+        <item>350BI1 - ITAPEVI (VILA GIOIA)</item>
+        <item>351 - COTIA (CAUCAIA DO ALTO)</item>
+        <item>351BI1 - COTIA (CAUCAIA DO ALTO)</item>
+        <item>351PR1 - COTIA (JARDIM MONTE VERDE)</item>
+        <item>352 - SANTANA DE PARNAIBA (CIDADE DE SAO PEDRO)</item>
+        <item>353 - ARUJA (TERMINAL RODOVIARIO DE ARUJA)</item>
+        <item>354 - GUARULHOS (BAIRRO DOS LAVRAS)</item>
+        <item>355 - TABOAO DA SERRA (PARQUE PINHEIROS)</item>
+        <item>356 - TABOAO DA SERRA (C.S.U.)</item>
+        <item>357 - COTIA (CAPUTERA)</item>
+        <item>358 - DIADEMA (VILA SAO JOSE)</item>
+        <item>359 - SAO BERNARDO DO CAMPO (PACO MUNICIPAL)</item>
+        <item>360 - BARUERI (PARQUE VIANA)</item>
+        <item>361 - FRANCISCO MORATO (PARQUE 120)</item>
+        <item>362 - ITAQUAQUECETUBA (JARDIM CALIFORNIA)</item>
+        <item>363 - ARUJA (TERMINAL RODOVIARIO DE ARUJA)</item>
+        <item>366 - SAO BERNARDO DO CAMPO (PARQUE SELECTA)</item>
+        <item>367 - SUZANO (JARDIM VITORIA)</item>
+        <item>372 - SUZANO (VILA AMORIM)</item>
+        <item>373 - SUZANO (JARDIM BOA VISTA)</item>
+        <item>374 - RIO GRANDE DA SERRA (SITIO MARIA JOANA)</item>
+        <item>375 - MAIRIPORA (TERRA PRETA)</item>
+        <item>376 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>376 - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>376M - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>376M - DIADEMA (TERMINAL METROPOLITANO DIADEMA)</item>
+        <item>377 - POA (JARDIM NOVA POA)</item>
+        <item>378 - SANTANA DE PARNAIBA (RESIDENCIAL BURLE MARX)</item>
+        <item>379 - FERRAZ DE VASCONCELOS (ESTACAO FERRAZ DE VASCONCELOS)</item>
+        <item>380 - DIADEMA (TERMINAL METROPOLITANO DE DIADEMA)</item>
+        <item>381 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>381BI1 - RIBEIRAO PIRES (TERMINAL RODOVIARIO DE RIBEIRAO PIRES)</item>
+        <item>382 - MAUA (BAIRRO FEITAL)</item>
+        <item>382EX1 - MAUA (JARDIM ITAPEVA)</item>
+        <item>383 - EMBU (ITATUBA)</item>
+        <item>384 - ITAQUAQUECETUBA (JARDIM CALIFORNIA)</item>
+        <item>385 - PIRAPORA DO BOM JESUS (JARDIM BOM JESUS)</item>
+        <item>386 - SANTANA DE PARNAIBA (VARZEA DE SOUZA)</item>
+        <item>390 - OSASCO (JARDIM VELOSO)</item>
+        <item>390BI1 - OSASCO (JARDIM SANTO ANTONIO)</item>
+        <item>391 - EMBU GUACU (HOSPITAL MUNICIPAL)</item>
+        <item>392 - CARAPICUIBA (JARDIM ANA ESTELA)</item>
+        <item>392BI1 - CARAPICUIBA (JARDIM ANGELICA)</item>
+        <item>393 - EMBU GUACU (CIPO)</item>
+        <item>394 - BIRITIBA MIRIM (JARDIM DOS EUCALIPTOS)</item>
+        <item>395 - ITAPECERICA DA SERRA (JARDIM DAS OLIVEIRAS)</item>
+        <item>396 - COTIA (TERMINAL METROPOLITANO COTIA)</item>
+        <item>396BI1 - COTIA (JARDIM SANDRA)</item>
+        <item>397 - FERRAZ DE VASCONCELOS (VILA SAO PAULO)</item>
+        <item>398 - GUARULHOS (PARQUE SANTOS DUMONT)</item>
+        <item>399 - BARUERI (PARQUE IMPERIAL)</item>
+        <item>400 - MAUA (JARDIM ZAIRA)</item>
+        <item>400EX1 - MAUA (JARDIM ZAIRA)</item>
+        <item>402 - RIO GRANDE DA SERRA (CENTRO)</item>
+        <item>403 - MAUA (VILA NOVA MAUA)</item>
+        <item>404 - OSASCO (NOVO OSASCO)</item>
+        <item>405 - SUZANO (CENTRO)</item>
+        <item>406 - SANTO ANDRE(TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>407 - CARAPICUIBA (VILA DIRCE)</item>
+        <item>408 - GUARULHOS (BAIRRO DOS LAVRAS)</item>
+        <item>409 - SAO BERNARDO DO CAMPO (JARDIM LAS PALMAS)</item>
+        <item>409BI1 - SAO BERNARDO DO CAMPO (PARQUE ALVARENGA)</item>
+        <item>410PR1 - EMBU GUACU (VILA DIRCE)</item>
+        <item>411 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>412 - EMBU DAS ARTES (PARQUE PIRAJUSSARA)</item>
+        <item>413 - EMBU DAS ARTES (JARDIM SANTO EDUARDO)</item>
+        <item>414 - COTIA (ATALAIA)</item>
+        <item>415 - SANTA ISABEL (MONTE SERRAT)</item>
+        <item>416 - POA (JARDIM MEDINA)</item>
+        <item>417 - SANTANA DE PARNAIBA (PARQUE SANTANA)</item>
+        <item>418 - PIRAPORA DO BOM JESUS (JARDIM BOM JESUS)</item>
+        <item>419 - ITAPEVI (COHAB/JARDIM PAULISTA)</item>
+        <item>420 - OSASCO (VILA YARA)</item>
+        <item>421 - ITAPEVI (CENTRO)</item>
+        <item>422 - ITAPEVI (VILA NOVA ESPERANCA)</item>
+        <item>424 - RIO GRANDE DA SERRA (CENTRO)</item>
+        <item>424 - RIO GRANDE DA SERRA (CENTRO)</item>
+        <item>426 - FRANCO DA ROCHA (CENTRO)</item>
+        <item>426 - FRANCO DA ROCHA (CENTRO)</item>
+        <item>427 - GUARULHOS (PARQUE CONTINENTAL II)</item>
+        <item>427BI1 - GUARULHOS (TERMINAL RODOVIARIO TURISTICO CIDADE DE GUARULHOS</item>
+        <item>428 - BARUERI (JARDIM DO LIBANO)</item>
+        <item>429 - CAIEIRAS (LARANJEIRAS)</item>
+        <item>430 - FRANCO DA ROCHA (CENTRO)</item>
+        <item>431 - SAO BERNARDO DO CAMPO (JARDIM LAS PALMAS)</item>
+        <item>432 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>432 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>435 - ITAQUAQUECETUBA (TERMINAL URBANO ENGENHEIRO MANOEL FEIO)</item>
+        <item>436 - FRANCISCO MORATO (TERMINAL LESTE)</item>
+        <item>437 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>438 - FRANCO DA ROCHA (PARQUE VITORIA)</item>
+        <item>439 - BARUERI (ALPHAVILLE)</item>
+        <item>439VP1 - BARUERI (ALPHAVILLE)</item>
+        <item>442 - CAIEIRAS (JARDIM NOVA ERA)</item>
+        <item>443 - GUARULHOS (COCAIA)</item>
+        <item>446 - DIADEMA (JARDIM DAS MARAVILHAS)</item>
+        <item>448 - CARAPICUIBA (PARQUE JANDAIA)</item>
+        <item>449 - CARAPICUIBA (PARQUE JANDAIA)</item>
+        <item>450 - CARAPICUIBA (JARDIM NOVO HORIZONTE)</item>
+        <item>451 - ITAPECERICA DA SERRA (JARDIM BRANCA FLOR)</item>
+        <item>452 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE-LESTE)</item>
+        <item>454 - JANDIRA (CONDOMINIO RESERVA DE SANTA MARIA)</item>
+        <item>455 - BARUERI (ALPHAVILLE)</item>
+        <item>456 - BARUERI (TERMINAL RODOFERROVIARIO GUALBERTO TOLAINE)</item>
+        <item>458 - CARAPICUIBA (COHAB I)</item>
+        <item>459 - EMBU DAS ARTES (TERMINAL CASA BRANCA)</item>
+        <item>460 - FERRAZ DE VASCONCELOS (VILA SAO PAULO)</item>
+        <item>461 - ARUJA (TERMINAL RODOVIARIO DE ARUJA)</item>
+        <item>462 - SANTANA DE PARNAIBA (CIDADE SAO PEDRO)</item>
+        <item>462BI1 - SANTANA DE PARNAIBA (VARZEA DE SOUZA)</item>
+        <item>463 - ITAPEVI (JARDIM VITAPOLIS)</item>
+        <item>463BI1 - ITAPEVI (JARDIM VITAPOLIS)</item>
+        <item>465 - EMBU GUACU (CIPO)</item>
+        <item>466 - OSASCO (TERMINAL SANTA MARIA)</item>
+        <item>467 - SANTANA DE PARNAIBA (CENTRO)</item>
+        <item>468 - SANTANA DE PARNAIBA (RESIDENCIAL VILLA VELHA)</item>
+        <item>469 - FRANCO DA ROCHA (JARDIM LAGO AZUL)</item>
+        <item>469 - FRANCO DA ROCHA (JARDIM LAGO AZUL)</item>
+        <item>470 - SANTO ANDRE (TERMINAL METROPOLITANO SANTO ANDRE LESTE)</item>
+        <item>471 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>472 - GUARULHOS (AEROPORTO INTERNACIONAL DE SAO PAULO)</item>
+        <item>473 - ITAQUAQUECETUBA (PARQUE PIRATININGA II)</item>
+        <item>474 - GUARAREMA (TERMINAL RODOVIARIO DE GUARAREMA)</item>
+        <item>475 - EMBU GUACU (CENTRO)</item>
+        <item>476 - EMBU GUACU (CIPO)</item>
+        <item>477 - GUARULHOS (JARDIM PRESIDENTE DUTRA)</item>
+        <item>478 - GUARULHOS (CONJUNTO PAES DE BARROS)</item>
+        <item>478BI1 - GUARULHOS (JARDIM DAS NACOES)</item>
+        <item>479 - CARAPICUIBA (PARQUE SANTA TEREZA)</item>
+        <item>480 - ARUJA (PARQUE RODRIGO BARRETO)</item>
+        <item>481 - POA (T.R. JARDIM SAO JOSE)</item>
+        <item>484 - EMBU DAS ARTES (JARDIM SANTO EDUARDO)</item>
+        <item>487 - MAUA (TERMINAL METROPOLITANO SONIA MARIA)</item>
+        <item>488 - CARAPICUIBA (VILA MENCK)</item>
+        <item>489 - ITAPEVI (CENTRO)</item>
+        <item>490 - TABOAO DA SERRA (JARDIM MONTE ALEGRE)</item>
+        <item>492 - CARAPICUIBA (PARQUE JANDAIA)</item>
+        <item>492BI1 - OSASCO (RECANTO DAS ROSAS)</item>
+        <item>493 - SANTO ANDRE (PRINCIPE DE GALES)</item>
+        <item>493DV1 - SANTO ANDRE (PRINCIPE DE GALES)</item>
+        <item>494 - SAO CAETANO DO SUL (TERMINAL RODOVIARIO NICOLAU DELIC)</item>
+        <item>496 - SAO PAULO (JARDIM JOAO XXIII)</item>
+        <item>496BI1 - SAO PAULO (RIO PEQUENO)</item>
+        <item>496VP1 - SAO PAULO (RODOVIA RAPOSO TAVARES - KM 17,8)</item>
+        <item>497 - CARAPICUIBA (VILA DIRCE)</item>
+        <item>498 - CARAPICUIBA (JARDIM NOVO HORIZONTE)</item>
+        <item>499 - GUARULHOS (TERMINAL METROPOLITANO CECAP)</item>
+        <item>500 - GUARULHOS (TERMINAL METROPOLITANO VILA GALVAO)</item>
+        <item>500DV1 - GUARULHOS (TERMINAL METROPOLITANO VILA GALVAO)</item>
+        <item>501 - ITAQUAQUECETUBA (PARQUE PIRATININGA)</item>
+        <item>502 - GUARULHOS (COCAIA)</item>
+        <item>503 - COTIA (CAUCAIA DO ALTO)</item>
+        <item>505 - COTIA (MIRANTE DA MATA)</item>
+        <item>506 - COTIA (JARDIM SANDRA)</item>
+        <item>507 - VARGEM GRANDE PAULISTA (JARDIM SAO MARCOS)</item>
+        <item>508 - COTIA (JARDIM JAPAO)</item>
+        <item>509 - VARGEM GRANDE PAULISTA (PARQUE DO AGRESTE)</item>
+        <item>510 - EMBU DAS ARTES (JARDIM VAZAME)</item>
+    </string-array>
+</resources>

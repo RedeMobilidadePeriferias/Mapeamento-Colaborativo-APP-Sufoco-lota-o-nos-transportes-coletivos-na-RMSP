@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorAccent"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationIcon="@mipmap/ic_arrow_back_white_24dp"
+            app:titleTextColor="@android:color/white">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_2_semibold"
+                android:text="@string/toolbar_name"
+                android:textColor="@color/offwhite"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="16sp"
+                android:layout_height="16sp"
+                android:layout_marginBottom="30dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_2_semibold"
+                android:text="@string/toolbar_name_part_2"
+                android:textColor="@color/offwhite"
+                android:textSize="16sp" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelReason"
+            android:textSize="16sp" />
+
+        <com.tiper.MaterialSpinner
+            android:id="@+id/reportTravelReason"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:spinnerMode="dialog"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelTime"
+            android:textSize="16sp" />
+
+        <com.tiper.MaterialSpinner
+            android:id="@+id/reportTravelTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelStatus"
+            android:textSize="16sp" />
+
+        <com.tiper.MaterialSpinner
+            android:id="@+id/reportTravelStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:spinnerMode="dialog" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelCategory"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/groupTravelCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/groupTravelCategoryBus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo_2"
+                android:text="@string/radioBus" />
+
+            <RadioButton
+                android:id="@+id/groupTravelCategorySubway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo_2"
+                android:text="@string/radioSubway" />
+
+            <RadioButton
+                android:id="@+id/groupTravelCategoryTrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/exo_2"
+                android:text="@string/radioTrain" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lableTravelLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelLine"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.tiper.MaterialSpinner
+            android:id="@+id/reportTravelLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:spinnerMode="dialog" />
+
+        <AutoCompleteTextView
+            android:id="@+id/reportTextTravelLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/exo_2"
+            android:hint="@string/lines"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/lableTravelStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/exo_2_semibold"
+            android:text="@string/lableTravelStation"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.tiper.MaterialSpinner
+            android:id="@+id/reportTravelStation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/btReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:clickable="false"
+            android:text="@string/lableReport" />
+    </LinearLayout>
+
+</LinearLayout>
